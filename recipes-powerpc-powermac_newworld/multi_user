@@ -1,7 +1,10 @@
 partman-auto/text/multi_user_scheme ::
 
+2 1000 10 hfs 
+	$bootable{ }
+	method{ newworld } .
+
 30 400 150 ext3 
-	$primary{ }
 	$bootable{ }
 	method{ format }
 	format{ }

@@ -1,7 +1,18 @@
 partman-auto/text/multi_user_scheme ::
 
-30 400 150 ext3 
+30 1000 35 linux-swap 
 	$primary{ }
+	method{ palo } .
+
+50 1000 130 ext2
+	$primary{ }
+	method{ format }
+	format{ }
+	use_filesystem{ }
+	filesystem{ ext2 }
+        mountpoint{ /boot } .
+
+30 400 150 ext3 
 	$bootable{ }
 	method{ format }
 	format{ }
