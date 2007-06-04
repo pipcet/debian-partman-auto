@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /lib/partman/definitions.sh
+
+db_metaget partman-auto/text/use_device description
+printf "regular\t$RET\n"
