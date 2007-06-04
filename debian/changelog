@@ -1,8 +1,8 @@
-partman-auto (68etch1) UNRELEASED; urgency=low
+partman-auto (68etch1) stable; urgency=low
 
   * Fix too long string in Romanian translation reported by Eddy Petrisor.
 
- -- Frans Pop <fjp@debian.org>  Tue, 10 Apr 2007 23:55:16 +0200
+ -- Frans Pop <fjp@debian.org>  Mon,  4 Jun 2007 21:22:31 +0200
 
 partman-auto (68) unstable; urgency=low
 
