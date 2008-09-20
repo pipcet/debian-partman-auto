@@ -3,42 +3,38 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of debian-installer_packages_po_sublevel1_da.po to
-# Danish messages for debian-installer.
-# This file is distributed under the same license as debian-installer.
-# Henrik Christian Grove <debian@3001.dk>, 2008.
-# Jesper Dahl Nyerup <debian@jespernyerup.dk>, 2008.
-# Jacob Sparre Andersen <sparre@nbi.dk>, 2008.
-# Claus Hindsgaul <claus.hindsgaul@gmail.com>, 2004-2007.
-# Reviewed 2007 by Niels Rasmussen
+# Serbian/Cyrillic translation of cp6Linux.
+# Copyright (C) 2008 THE cp6Linux'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the cp6Linux package.
+# Veselin Mijušković <veselin.mijuskovic@gmail.com>, 2008.
+# , fuzzy
 #
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
+"Project-Id-Version: cp6Linux 2008\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2008-09-19 16:35+0200\n"
-"Last-Translator: \n"
-"Language-Team:  <en@li.org>\n"
+"PO-Revision-Date: 2008-09-19 22:27+0100\n"
+"Last-Translator: Veselin Mijušković <panzer@cp6linux.org>\n"
+"Language-Team: Serbian/Cyrillic\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);X-Generator: KBabel 1.11.4\n"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr "Vent venligst..."
+msgstr "Молим сачекајте..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr "Beregner de nye partitioner..."
+msgstr "Рачунам нове партиције..."
 
 #. Type: error
 #. Description
@@ -48,7 +44,7 @@ msgstr "Beregner de nye partitioner..."
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "Kunne ikke partitionere den valgte disk"
+msgstr "Нисам успео да партиционишен одабрани диск"
 
 #. Type: error
 #. Description
@@ -58,8 +54,8 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
-"Dette skete sandsynligvis fordi den valgte disk eller den valgte frie plads "
-"er for lille til automatisk partitionering."
+"Ово се вероватно десило зато што је одабрани диск или слободан "
+"просторпремали да би био аутоматски партиционисан."
 
 #. Type: error
 #. Description
@@ -69,8 +65,8 @@ msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
 msgstr ""
-"Dette skyldes sandsynligvis at der er for mange (primære) partitioner i "
-"partitionstabellen."
+"Ово се вероватно десило зато што постоји сувише (примарних) партицијау "
+"партиционој табели."
 
 #. Type: select
 #. Description
@@ -80,7 +76,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr "Partitioneringsmetode:"
+msgstr "Начин партиционисања:"
 
 #. Type: select
 #. Description
@@ -92,10 +88,10 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
-"Installationsprogrammet kan guide dig gennem partitioneringen af en disk "
-"(ved hjælp af forskellige standardudlægninger) eller, hvis du foretrækker "
-"dette, lade dig gøre det manuelt. Hvis du vælger den guidede partitionering, "
-"vil du stadig have mulighed for senere at vurdere resultatet og tilrette det."
+"Програм за инсталацију вас може водити кроз процедуру партиционисања диска "
+"(користећи различите стандардне шеме) или, ако вам се то више свиђа, можете "
+"то урадити ручно. Са навођеним партиционисањем ипак ћете имати прилику да "
+"накнадно проверите и измените резултате."
 
 #. Type: select
 #. Description
@@ -108,15 +104,15 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
-"Hvis du vælger den guidede partitionering for en hel disk, vil næste "
-"spørgsmål være, hvilken disk, du ønsker benyttet."
+"Ако користите навођено партиционисање за читав диск, следеће питање ће бити "
+"који диск треба да се користи."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr "Partitioneringsmetode:"
+msgstr "Шема партиционисања:"
 
 #. Type: select
 #. Description
@@ -129,7 +125,7 @@ msgstr "Partitioneringsmetode:"
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr "Valg til partitionering:"
+msgstr "Одабрано за партиционисање:"
 
 #. Type: select
 #. Description
@@ -139,15 +135,15 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
-"Disken kan partitioneres på flere måder. Hvis du er usikker, så vælg den "
-"første."
+"Диск може бити партиционисан користећи једну од различитих шема. Ако нисте "
+"сигурни одаберите прву."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr "Ubrugelig fri plads"
+msgstr "Неискоришћен слободан простор"
 
 #. Type: error
 #. Description
@@ -157,8 +153,9 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"Partitioneringen mislykkedes, da den valgte frie plads ikke kan bruges. Der "
-"er sandsynligvis for mange (primære) partitioner i partitionstabellen."
+"Партиционисање није успело зато што одабрани слободан простор не можебити "
+"искоришћен. У партиционој табели вероватно постоји превише(примарних) "
+"партиција."
 
 #. Type: text
 #. Description
@@ -166,7 +163,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr "Guidet partitionering"
+msgstr "Навођено партиционисање"
 
 #. Type: text
 #. Description
@@ -174,7 +171,7 @@ msgstr "Guidet partitionering"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr "Guidet - benyt den største sammenhængende fri plads"
+msgstr "Навођено - употреби највећи слободан простор"
 
 #. Type: text
 #. Description
@@ -182,14 +179,14 @@ msgstr "Guidet - benyt den største sammenhængende fri plads"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr "Guidet - benyt en hel disk"
+msgstr "Навођено - употреби цео диск"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr "Vælg disk, der skal partitioneres:"
+msgstr "Одаберите диск за партиционисање:"
 
 #. Type: select
 #. Description
@@ -199,15 +196,15 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"Bemærk at alle data på den disk, du vælger, vil blive slettet, men ikke før "
-"du har bekræftet at du virkelig ønsker at gennemføre ændringerne."
+"Напомињем да ће сви подаци на диску који сте одабрали бити обрисани, али не "
+"пре него што потврдите да стварно желите да учините измене."
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:17001
 msgid "Select disk(s) to partition:"
-msgstr "Vælg disk(e), der skal partitioneres:"
+msgstr "Одаберте диск(ове) за партиционисање:"
 
 #. Type: multiselect
 #. Description
@@ -217,8 +214,8 @@ msgid ""
 "Note that all data on the disk(s) you select will be erased, but not before "
 "you have confirmed that you really want to make the changes."
 msgstr ""
-"Bemærk, at alle data på de diske, du vælger, vil blive slettet, men ikke før "
-"du har bekræftet, at du virkelig ønsker at gennemføre ændringerne."
+"Напомињем да ће сви подаци на диску/дисковима који сте одабрали бити "
+"обрисани, али не пре него што потврдите да стварно желите да учините измене."
 
 #. Type: text
 #. Description
@@ -227,7 +224,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:18001
 msgid "Manual"
-msgstr "Manuelt"
+msgstr "Ручно"
 
 #. Type: text
 #. Description
@@ -235,7 +232,7 @@ msgstr "Manuelt"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "Automatically partition the free space"
-msgstr "Automatisk partitionering af den frie plads"
+msgstr "Аутоматски партициониши слободан простор"
 
 #. Type: text
 #. Description
@@ -243,7 +240,7 @@ msgstr "Automatisk partitionering af den frie plads"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "All files in one partition (recommended for new users)"
-msgstr "Alle filer i én partition (anbefales for nye brugere)"
+msgstr "Све датотеке на једној партицији (добро за почетнике)"
 
 #. Type: text
 #. Description
@@ -251,7 +248,7 @@ msgstr "Alle filer i én partition (anbefales for nye brugere)"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home partition"
-msgstr "Separat /home-partition"
+msgstr "Засебна /home партиција"
 
 #. Type: text
 #. Description
@@ -259,7 +256,7 @@ msgstr "Separat /home-partition"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Separate /home, /usr, /var, and /tmp partitions"
-msgstr "Separate /home, /usr, /var og /tmp-partitioner"
+msgstr "Засебне /home, /usr, /var и /tmp партиције"
 
 #. Type: text
 #. Description
@@ -267,4 +264,4 @@ msgstr "Separate /home, /usr, /var og /tmp-partitioner"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:23001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr "Partitionsudlægning for lille harddisk (<1 GB)"
+msgstr "Шема партиционисања за мали диск (< 1GB)"
