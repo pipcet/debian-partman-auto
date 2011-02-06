@@ -1,3 +1,9 @@
+partman-auto (97) UNRELEASED; urgency=low
+
+  * Bypass select_disk prompt when there is only one disk. Closes: #408641
+
+ -- Joey Hess <joeyh@debian.org>  Sun, 06 Feb 2011 14:05:23 -0400
+
 partman-auto (96) unstable; urgency=low
 
   [ Updated translations ]
