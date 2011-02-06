@@ -236,6 +236,12 @@ select_auto_disk() {
 
 	DEVS=$(get_auto_disks)
 	[ -n "$DEVS" ] || return 1
+	if ! echo "$DEVS" | grep -q '[[:space:]]'; then
+		# only one choice
+		db_set partman-auto/select_disk "$DEVS"
+		echo "$DEVS"
+		return 0
+	fi
 	debconf_select critical partman-auto/select_disk "$DEVS" "" || return 1
 	echo "$RET"
 	return 0
