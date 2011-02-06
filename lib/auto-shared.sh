@@ -241,9 +241,6 @@ select_auto_disk() {
 	return 0
 }
 
-# TODO: Add a select_auto_disks() function
-# Note: This needs a debconf_multiselect equiv.
-
 # Maps a devfs name to a partman directory
 dev_to_partman () {
 	local dev_name="$1"
