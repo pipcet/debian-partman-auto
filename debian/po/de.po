@@ -23,8 +23,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
+"POT-Creation-Date: 2011-02-06 22:48+0000\n"
 "PO-Revision-Date: 2010-10-02 22:33+0200\n"
 "Last-Translator: Holger Wansing <linux@wansing-online.de>\n"
 "Language-Team: Debian German <debian-l10n-german@lists.debian.org>\n"
@@ -210,31 +210,12 @@ msgstr ""
 "werden, jedoch nicht, bevor Sie bestätigt haben, dass Sie die Änderungen "
 "wirklich durchführen möchten."
 
-#. Type: multiselect
-#. Description
-#. :sl1:
-#: ../partman-auto.templates:17001
-msgid "Select disk(s) to partition:"
-msgstr "Wählen Sie die zu partitionierende(n) Festplatte(n):"
-
-#. Type: multiselect
-#. Description
-#. :sl1:
-#: ../partman-auto.templates:17001
-msgid ""
-"Note that all data on the disk(s) you select will be erased, but not before "
-"you have confirmed that you really want to make the changes."
-msgstr ""
-"Beachten Sie, dass alle Daten auf den Festplatten, die Sie wählen, gelöscht "
-"werden, jedoch nicht, bevor Sie bestätigt haben, dass Sie die Änderungen "
-"wirklich durchführen möchten."
-
 #. Type: text
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:17001
 msgid "Manual"
 msgstr "Manuell"
 
@@ -242,7 +223,7 @@ msgstr "Manuell"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
 msgstr "Freien Speicher automatisch partitionieren"
 
@@ -250,7 +231,7 @@ msgstr "Freien Speicher automatisch partitionieren"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
 msgstr "Alle Dateien auf eine Partition, für Anfänger empfohlen"
 
@@ -258,7 +239,7 @@ msgstr "Alle Dateien auf eine Partition, für Anfänger empfohlen"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:20001
 msgid "Separate /home partition"
 msgstr "Separate /home-Partition"
 
@@ -266,7 +247,7 @@ msgstr "Separate /home-Partition"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:21001
 msgid "Separate /home, /usr, /var, and /tmp partitions"
 msgstr "Separate /home-, /usr-, /var- und /tmp-Partitionen"
 
@@ -274,6 +255,6 @@ msgstr "Separate /home-, /usr-, /var- und /tmp-Partitionen"
 #. Description
 #. :sl2:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:23001
+#: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
 msgstr "Partitionsschema für kleine Platten (< 1GB):"
