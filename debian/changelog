@@ -1,5 +1,8 @@
 partman-auto (96) unstable; urgency=low
 
+  [ Konstantinos Margaritis ]
+  * Added armhf recipe
+
   [ Updated translations ]
   * Lao (lo.po) by Anousak Souphavanh
   * Northern Sami (se.po) by Børre Gaup
