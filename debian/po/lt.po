@@ -9,12 +9,13 @@
 # Marius Gedminas <mgedmin@b4net.lt>, 2004.
 # Darius Skilinskas <darius10@takas.lt>, 2005.
 # Kęstutis Biliūnas <kebil@kaunas.init.lt>, 2004...2010.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2010-04-08 01:16+0300\n"
+"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
+"POT-Creation-Date: 2011-02-06 22:48+0000\n"
+"PO-Revision-Date: 2010-09-07 09:04+0300\n"
 "Last-Translator: Kęstutis Biliūnas <kebil@kaunas.init.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "MIME-Version: 1.0\n"
@@ -197,30 +198,12 @@ msgstr ""
 "Pastaba: visi duomenys pasirinktame diske bus ištrinti, bet ne anksčiau nei "
 "Jūs patvirtinsite kad tikrai norite atlikti pakeitimus."
 
-#. Type: multiselect
-#. Description
-#. :sl1:
-#: ../partman-auto.templates:17001
-msgid "Select disk(s) to partition:"
-msgstr "Pasirinkite diską(us) dalijimui skirsniais:"
-
-#. Type: multiselect
-#. Description
-#. :sl1:
-#: ../partman-auto.templates:17001
-msgid ""
-"Note that all data on the disk(s) you select will be erased, but not before "
-"you have confirmed that you really want to make the changes."
-msgstr ""
-"Pastaba: visi duomenys pasirinktame(uose) diske(uose) bus ištrinti, bet ne "
-"anksčiau nei Jūs patvirtinsite kad tikrai norite atlikti pakeitimus."
-
 #. Type: text
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:17001
 msgid "Manual"
 msgstr "Rankiniu būdu"
 
@@ -228,7 +211,7 @@ msgstr "Rankiniu būdu"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
 msgstr "Automatiškai sudalinti laisvą disko vietą"
 
@@ -236,7 +219,7 @@ msgstr "Automatiškai sudalinti laisvą disko vietą"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
 msgstr ""
 "Visi failai viename disko skirsnyje (rekomenduojama naujiems naudotojams)"
@@ -245,7 +228,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:20001
 msgid "Separate /home partition"
 msgstr "Atskiras /home disko skirsnis"
 
@@ -253,7 +236,7 @@ msgstr "Atskiras /home disko skirsnis"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:21001
 msgid "Separate /home, /usr, /var, and /tmp partitions"
 msgstr "Atskiri /home, /usr, /var, ir /tmp disko skirsniai"
 
@@ -261,6 +244,6 @@ msgstr "Atskiri /home, /usr, /var, ir /tmp disko skirsniai"
 #. Description
 #. :sl2:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:23001
+#: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
 msgstr "Mažo disko (< 1GB) dalijimo schema"

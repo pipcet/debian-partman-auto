@@ -4,7 +4,7 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # Italian messages for debian-installer.
-# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009 Software in the Public Interest, Inc.
+# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 # The translation team (for all four levels):
 # Cristian Rigamonti <cri@linux.it>
@@ -20,13 +20,13 @@
 # Stefano Canepa <sc@linux.it>
 # Stefano Melchior <stefano.melchior@openlabs.it>
 #
-# Milo Casagrande <milo@ubuntu.com>, 2008, 2009.
+# Milo Casagrande <milo@ubuntu.com>, 2008, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2009-12-12 14:01+0100\n"
+"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
+"POT-Creation-Date: 2011-02-06 22:48+0000\n"
+"PO-Revision-Date: 2010-10-27 07:25-0400\n"
 "Last-Translator: Milo Casagrande <milo@ubuntu.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "MIME-Version: 1.0\n"
@@ -210,30 +210,12 @@ msgstr ""
 "Tutti i dati presenti sul disco selezionato saranno cancellati dopo la "
 "conferma dell'applicazione dei cambiamenti."
 
-#. Type: multiselect
-#. Description
-#. :sl1:
-#: ../partman-auto.templates:17001
-msgid "Select disk(s) to partition:"
-msgstr "Selezionare i dischi da partizionare:"
-
-#. Type: multiselect
-#. Description
-#. :sl1:
-#: ../partman-auto.templates:17001
-msgid ""
-"Note that all data on the disk(s) you select will be erased, but not before "
-"you have confirmed that you really want to make the changes."
-msgstr ""
-"Tutti i dati sui dischi selezionati saranno cancellati dopo la conferma "
-"dell'applicazione dei cambiamenti."
-
 #. Type: text
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:17001
 msgid "Manual"
 msgstr "Manuale"
 
@@ -241,7 +223,7 @@ msgstr "Manuale"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
 msgstr "Partizionare automaticamente lo spazio libero"
 
@@ -249,7 +231,7 @@ msgstr "Partizionare automaticamente lo spazio libero"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
 msgstr "Tutti i file in una partizione (per nuovi utenti)"
 
@@ -257,7 +239,7 @@ msgstr "Tutti i file in una partizione (per nuovi utenti)"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:20001
 msgid "Separate /home partition"
 msgstr "Partizione /home separata"
 
@@ -265,7 +247,7 @@ msgstr "Partizione /home separata"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:21001
 msgid "Separate /home, /usr, /var, and /tmp partitions"
 msgstr "Partizioni /home, /usr, /var e /tmp separate"
 
@@ -273,6 +255,6 @@ msgstr "Partizioni /home, /usr, /var e /tmp separate"
 #. Description
 #. :sl2:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:23001
+#: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
 msgstr "Schema di partizionamento per dischi piccoli (< 1Gb)"
