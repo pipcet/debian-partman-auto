@@ -8,7 +8,23 @@ partman-auto (96) unstable; urgency=low
   * Northern Sami (se.po) by Børre Gaup
   * Sinhala (si.po) by Danishka Navin
 
- -- Otavio Salvador <otavio@debian.org>  Fri, 24 Dec 2010 20:16:06 -0200
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Czech (cs.po) by Miroslav Kure
+  * Spanish (es.po) by Javier Fernández-Sanguino
+  * Basque (eu.po) by Piarres Beobide
+  * French (fr.po) by Christian Perrier
+  * Kazakh (kk.po) by Baurzhan Muftakhidinov
+  * Nepali (ne.po)
+  * Portuguese (pt.po) by Miguel Figueiredo
+  * Russian (ru.po) by Yuri Kozlov
+  * Northern Sami (se.po) by Børre Gaup
+  * Slovak (sk.po) by Ivan Masár
+  * Swedish (sv.po) by Daniel Nylander
+  * Telugu (te.po) by Arjuna Rao Chavala
+  * Thai (th.po) by Theppitak Karoonboonyanan
+
+ -- Hector Oron <zumbi@debian.org>  Tue, 22 Mar 2011 12:20:16 +0000
 
 partman-auto (95) unstable; urgency=low
 
