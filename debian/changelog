@@ -1,12 +1,7 @@
-partman-auto (96) unstable; urgency=low
+partman-auto (97) unstable; urgency=low
 
   [ Konstantinos Margaritis ]
   * Added armhf recipe
-
-  [ Updated translations ]
-  * Lao (lo.po) by Anousak Souphavanh
-  * Northern Sami (se.po) by Børre Gaup
-  * Sinhala (si.po) by Danishka Navin
 
   [ Updated translations ]
   * Bulgarian (bg.po) by Damyan Ivanov
@@ -23,6 +18,15 @@ partman-auto (96) unstable; urgency=low
   * Swedish (sv.po) by Daniel Nylander
   * Telugu (te.po) by Arjuna Rao Chavala
   * Thai (th.po) by Theppitak Karoonboonyanan
+
+ -- Hector Oron <zumbi@debian.org>  Tue, 22 Mar 2011 12:24:32 +0000
+
+partman-auto (96) unstable; urgency=low
+
+  [ Updated translations ]
+  * Lao (lo.po) by Anousak Souphavanh
+  * Northern Sami (se.po) by Børre Gaup
+  * Sinhala (si.po) by Danishka Navin
 
  -- Hector Oron <zumbi@debian.org>  Tue, 22 Mar 2011 12:20:16 +0000
 
