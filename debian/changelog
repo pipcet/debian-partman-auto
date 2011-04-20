@@ -1,3 +1,9 @@
+partman-auto (98) UNRELEASED; urgency=low
+
+  * Update old comment about partman-auto-lvm and $iflabel.
+
+ -- Colin Watson <cjwatson@debian.org>  Wed, 20 Apr 2011 11:09:22 +0100
+
 partman-auto (97) unstable; urgency=low
 
   [ Konstantinos Margaritis ]

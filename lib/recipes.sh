@@ -111,14 +111,14 @@ decode_recipe () {
 			if [ "$ignore" ] && [ "$(echo $line | grep "$ignore")" ]; then
 				:
 			else
-				# Exclude partitions that are only for a different
-				# disk label. The $PWD check avoids problems when
-				# running from partman-auto-lvm, where we aren't in
-				# a subdirectory of $DEVICES while decoding the
-				# recipe; but we do need to perform this check early
-				# so that size calculations work. As a result, for
-				# now, $iflabel will not work when doing automatic
-				# LVM partitioning.
+				# Exclude partitions that are only for a
+				# different disk label.  The $PWD check
+				# avoids problems when running from older
+				# versions of partman-auto-lvm, where we
+				# weren't in a subdirectory of $DEVICES
+				# while decoding the recipe; we preserve it
+				# in case of custom code with the same
+				# problem.
 				iflabel="$(echo $line | sed -n 's/.*\$iflabel{ \([^}]*\) }.*/\1/p')"
 				if [ "$iflabel" ]; then
 					if [ "${PWD#$DEVICES/}" != "$PWD" ]; then
