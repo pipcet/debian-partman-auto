@@ -109,30 +109,33 @@ decode_recipe () {
 
 			# Exclude partitions that have ...ignore set
 			if [ "$ignore" ] && [ "$(echo $line | grep "$ignore")" ]; then
-				:
-			else
-				# Exclude partitions that are only for a
-				# different disk label.  The $PWD check
-				# avoids problems when running from older
-				# versions of partman-auto-lvm, where we
-				# weren't in a subdirectory of $DEVICES
-				# while decoding the recipe; we preserve it
-				# in case of custom code with the same
-				# problem.
-				iflabel="$(echo $line | sed -n 's/.*\$iflabel{ \([^}]*\) }.*/\1/p')"
-				if [ "$iflabel" ]; then
-					if [ "${PWD#$DEVICES/}" != "$PWD" ]; then
-						open_dialog GET_LABEL_TYPE
-						read_line label
-						close_dialog
-						if [ "$iflabel" = "$label" ]; then
-							scheme="${scheme:+$scheme$NL}$line"
-						fi
-					fi
-				else
-					scheme="${scheme:+$scheme$NL}$line"
+				line=
+				continue
+			fi
+
+			# Exclude partitions that are only for a different
+			# disk label.  The $PWD check avoids problems when
+			# running from older versions of partman-auto-lvm,
+			# where we weren't in a subdirectory of $DEVICES
+			# while decoding the recipe; we preserve it in case
+			# of custom code with the same problem.
+			iflabel="$(echo $line | sed -n 's/.*\$iflabel{ \([^}]*\) }.*/\1/p')"
+			if [ "$iflabel" ]; then
+				if [ "${PWD#$DEVICES/}" = "$PWD" ]; then
+					line=''
+					continue
+				fi
+
+				open_dialog GET_LABEL_TYPE
+				read_line label
+				close_dialog
+				if [ "$iflabel" != "$label" ]; then
+					line=''
+					continue
 				fi
 			fi
+
+			scheme="${scheme:+$scheme$NL}$line"
 			line=''
 			;;
 		    *)
