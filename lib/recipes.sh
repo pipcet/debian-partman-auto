@@ -151,8 +151,7 @@ decode_recipe () {
 				fi
 			fi
 
-			# Exclude partitions where we can reuse an existing
-			# partition instead.
+			# Check if we can reuse an existing partition.
 			if echo "$line" | grep -q '\$reusemethod{'; then
 				if [ "${PWD#$DEVICES/}" != "$PWD" ]; then
 					method="$(echo "$line" | sed -n 's/.* method{ \([^}]*\) }.*/\1/p')"
