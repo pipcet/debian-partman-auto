@@ -24,10 +24,26 @@ autopartitioning_failed () {
 	exit 1
 }
 
+find_method () {
+	local num id size type fs path name method found
+	found=
+	open_dialog PARTITIONS
+	while { read_line num id size type fs path name; [ "$id" ]; }; do
+		[ -f $id/method-old ] || continue
+		method="$(cat $id/method-old)"
+		if [ "$method" = "$1" ]; then
+			found="$id"
+		fi
+	done
+	close_dialog
+	echo "$found"
+}
+
 unnamed=0
 
 decode_recipe () {
 	local ignore ram line word min factor max fs iflabel label -
+	local reusemethod method id
 	ignore="${2:+${2}ignore}"
 	unnamed=$(($unnamed + 1))
 	ram=$(grep ^Mem: /proc/meminfo | { read x y z; echo $y; }) # in bytes
@@ -132,6 +148,18 @@ decode_recipe () {
 				if [ "$iflabel" != "$label" ]; then
 					line=''
 					continue
+				fi
+			fi
+
+			# Exclude partitions where we can reuse an existing
+			# partition instead.
+			if echo "$line" | grep -q '\$reusemethod{'; then
+				if [ "${PWD#$DEVICES/}" != "$PWD" ]; then
+					method="$(echo "$line" | sed -n 's/.* method{ \([^}]*\) }.*/\1/p')"
+					id="$(find_method "$method")"
+					if [ "$id" ]; then
+						line="$(echo "$line" | sed 's/\$reusemethod{[^}]*}/$reuse{ '"$id"' }/')"
+					fi
 				fi
 			fi
 
@@ -369,6 +397,21 @@ choose_recipe () {
 }
 
 expand_scheme() {
+	# Filter out reused partitions first, as we don't want to take
+	# account of their size.
+	scheme_reused=$(
+	    foreach_partition '
+		if echo "$*" | grep -q '\''\$reuse{'\''; then
+			echo "$*"
+		fi'
+	)
+	scheme=$(
+	    foreach_partition '
+		if ! echo "$*" | grep -q '\''\$reuse{'\''; then
+			echo "$*"
+		fi'
+	)
+
 	# Make factors small numbers so we can multiply on them.
 	# Also ensure that fact, max and fs are valid
 	# (Ofcourse in valid recipes they must be valid.)
@@ -435,7 +478,8 @@ clean_method() {
 		cd $device
 		open_dialog PARTITIONS
 		while { read_line num id size type fs path name; [ "$id" ]; }; do
-			rm -f $id/method
+			[ -e $id/method ] || continue
+			mv $id/method $id/method-old
 		done
 		close_dialog
 	done

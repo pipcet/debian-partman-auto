@@ -3,6 +3,8 @@ partman-auto (98) UNRELEASED; urgency=low
   * Update old comment about partman-auto-lvm and $iflabel.
   * Refactor some of decode_recipe to make it easier to have multiple ways
     to ignore recipe stanzas.
+  * Add $reusemethod internal specifier, which excludes the partition if a
+    partition with the same method already exists.
 
  -- Colin Watson <cjwatson@debian.org>  Wed, 20 Apr 2011 11:09:22 +0100
 
