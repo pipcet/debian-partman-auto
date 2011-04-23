@@ -1,8 +1,12 @@
-partman-auto (98) UNRELEASED; urgency=low
+partman-auto (98) unstable; urgency=low
 
+  [ Colin Watson ]
   * Update old comment about partman-auto-lvm and $iflabel.
 
- -- Colin Watson <cjwatson@debian.org>  Wed, 20 Apr 2011 11:09:22 +0100
+  [ Updated translations ]
+  * Uyghur (ug.po) by Sahran
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 23 Apr 2011 19:40:06 +0200
 
 partman-auto (97) unstable; urgency=low
 
