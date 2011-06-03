@@ -1,8 +1,8 @@
-partman-auto (99) UNRELEASED; urgency=low
+partman-auto (99) unstable; urgency=low
 
   * Add mipsel/loongson-2f recipes.
 
- -- Colin Watson <cjwatson@debian.org>  Fri, 03 Jun 2011 11:18:05 +0100
+ -- Colin Watson <cjwatson@debian.org>  Fri, 03 Jun 2011 11:19:26 +0100
 
 partman-auto (98) unstable; urgency=low
 
