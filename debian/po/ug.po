@@ -12,6 +12,8 @@
 # in doc/i18n/i18n.txt
 #
 #
+# Translations from iso-codes:
+# Sahran <sahran.ug@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
@@ -30,7 +32,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr "سەل كۈتۈڭ…"
+msgstr "ساقلاپ تۇرۇڭ…"
 
 #. Type: text
 #. Description
