@@ -1,3 +1,11 @@
+partman-auto (100) UNRELEASED; urgency=low
+
+  * Merge from Ubuntu:
+    - Determine memory size for RAM-dependent recipe elements more
+      accurately on i386 (LP: #604765).
+
+ -- Colin Watson <cjwatson@debian.org>  Sun, 24 Jul 2011 15:54:13 +0100
+
 partman-auto (99) unstable; urgency=low
 
   * Add mipsel/loongson-2f recipes.
