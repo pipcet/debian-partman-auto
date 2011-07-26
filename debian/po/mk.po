@@ -9,19 +9,29 @@
 #
 # Georgi Stanojevski, <glisha@gmail.com>, 2004, 2005, 2006.
 # Georgi Stanojevski <georgis@unet.com.mk>, 2005, 2006.
-# Arangel Angov <ufo@linux.net.mk>, 2008.
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2002
+#   Arangel Angov <ufo@linux.net.mk>, 2008.
+#   Free Software Foundation, Inc., 2002,2004
+#   Georgi Stanojevski <glisha@gmail.com>, 2004, 2006.
+# Translations from KDE:
+#   Danko Ilik <danko@mindless.com>
+# Arangel Angov <arangel@linux.net.mk>, 2008, 2011.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_mk\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2010-11-15 14:49+0100\n"
+"PO-Revision-Date: 2011-07-24 18:23+0200\n"
 "Last-Translator: Arangel Angov <arangel@linux.net.mk>\n"
-"Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
+"Language-Team: Macedonian <>\n"
 "Language: mk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bits\n"
+"Plural-Forms: nplurals=3; plural=(n!=1);\n"
 
 #. Type: text
 #. Description
@@ -113,7 +123,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr "Начин на партиционирање:"
+msgstr "Шема на партиции:"
 
 #. Type: select
 #. Description
@@ -196,7 +206,7 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"Имај на уме дека сите податоци на дискот кој ќе го одбереш ќе бидат "
+"Имај на ум дека сите податоци на дискот кој ќе го одбереш ќе бидат "
 "избришани, но не пред да потврдиш дека навистина сакаш да се направат "
 "промените."
 
@@ -223,7 +233,7 @@ msgstr "Автоматски партиционирај го празниот п
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr "Сите датотеки во една партиција (препорачливо за нови кориситници)"
+msgstr "Сите датотеки на една партиција (препорачливо за нови кориситници)"
 
 #. Type: text
 #. Description
