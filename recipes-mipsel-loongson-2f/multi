@@ -10,6 +10,7 @@ partman-auto/text/multi_scheme ::
 	mountpoint{ /boot } .
 
 70 800 280 $default_filesystem
+	$lvmok{ }
 	method{ format }
 	format{ }
 	use_filesystem{ }
@@ -17,6 +18,7 @@ partman-auto/text/multi_scheme ::
 	mountpoint{ / } .
 
 500 3000 5000 $default_filesystem
+	$lvmok{ }
 	method{ format }
 	format{ }
 	use_filesystem{ }
@@ -24,6 +26,7 @@ partman-auto/text/multi_scheme ::
 	mountpoint{ /usr } .
 
 70 1500 3000 $default_filesystem
+	$lvmok{ }
 	method{ format }
 	format{ }
 	use_filesystem{ }
@@ -31,10 +34,12 @@ partman-auto/text/multi_scheme ::
 	mountpoint{ /var } .
 
 96 512 300% linux-swap
+	$lvmok{ }
 	method{ swap }
 	format{ } .
 
 20 300 400 $default_filesystem
+	$lvmok{ }
 	method{ format }
 	format{ }
 	use_filesystem{ }
@@ -42,6 +47,7 @@ partman-auto/text/multi_scheme ::
 	mountpoint{ /tmp } .
 
 300 3000 -1 $default_filesystem
+	$lvmok{ }
 	method{ format }
 	format{ }
 	use_filesystem{ }
