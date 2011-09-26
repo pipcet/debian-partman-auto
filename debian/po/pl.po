@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2011-09-18 21:28+0100\n"
+"PO-Revision-Date: 2011-09-26 10:46+0100\n"
 "Last-Translator: Marcin Owsiany <porridge@debian.org>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -44,14 +44,14 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr ""
+msgstr "Proszę czekać..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr ""
+msgstr "Obliczanie nowych partycji..."
 
 #. Type: error
 #. Description
@@ -61,7 +61,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr ""
+msgstr "Nie udało się spartycjonować wybranego dysku"
 
 #. Type: error
 #. Description
@@ -71,6 +71,8 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
+"Stało się to prawdopodobnie dlatego, że wybrany napęd lub wolna przestrzeń "
+"jest zbyt mała do automatycznego partycjonowania."
 
 #. Type: error
 #. Description
@@ -80,6 +82,8 @@ msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
 msgstr ""
+"Prawdopodobnie stało się to dlatego, że jest za wiele (podstawowych)partycji "
+"w tablicy partycji."
 
 #. Type: select
 #. Description
@@ -89,7 +93,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr ""
+msgstr "Sposób partycjonowania:"
 
 #. Type: select
 #. Description
@@ -101,6 +105,11 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
+"Instalator może przeprowadzić Cię przez proces partycjonowania dysku "
+"(używając różnych standardowych schematów) lub jeśli chcesz możesz tego "
+"dokonać ręcznie. Jeśli wybierzesz partycjonowanie z użyciem przewodnika, "
+"nadal będzie możliwość obejrzenia rezultatów i dostosowania ich do swoich "
+"potrzeb."
 
 #. Type: select
 #. Description
@@ -113,13 +122,15 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
+"Po wybraniu partycjonowania całego dysku z przewodnikiem pojawi się pytanie "
+"którego dysku użyć."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr ""
+msgstr "Metoda partycjonowania:"
 
 #. Type: select
 #. Description
@@ -132,7 +143,7 @@ msgstr ""
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr ""
+msgstr "Wybrane do partycjonowania:"
 
 #. Type: select
 #. Description
@@ -142,13 +153,15 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
+"Napęd może zostać spartycjonowany na jeden z wielu różnych schematów. "
+"Wybierz pierwszy jeśli nie jesteś pewien."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr ""
+msgstr "Nieprzydatna wolna przestrzeń"
 
 #. Type: error
 #. Description
@@ -158,6 +171,9 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
+"Partycjonowanie z użyciem kreatora nie powiodło się, ponieważ wolna "
+"przestrzeń nie może być wykorzystana. Prawdopodobnie posiadasz za dużo "
+"(podstawowych) partycji w tablicy partycji."
 
 #. Type: text
 #. Description
@@ -165,7 +181,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr ""
+msgstr "Partycjonowanie z przewodnikiem"
 
 #. Type: text
 #. Description
@@ -173,7 +189,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr ""
+msgstr "Przewodnik - największa, ciągła, wolna przestrzeń"
 
 #. Type: text
 #. Description
@@ -181,14 +197,14 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr ""
+msgstr "Przewodnik - cały dysk"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr ""
+msgstr "Wybierz dysk do partycjonowania:"
 
 #. Type: select
 #. Description
@@ -198,6 +214,8 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
+"Zauważ, że wszystkie dane na wybranym dysku zostaną usunięte, ale dopiero "
+"gdy potwierdzisz, że naprawdę chcesz zastosowania zmian."
 
 #. Type: text
 #. Description
@@ -206,7 +224,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:17001
 msgid "Manual"
-msgstr ""
+msgstr "Ręcznie"
 
 #. Type: text
 #. Description
@@ -214,7 +232,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr ""
+msgstr "Automatycznie partycjonuj wolną przestrzeń"
 
 #. Type: text
 #. Description
@@ -222,7 +240,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr ""
+msgstr "Wszystko na jednej partycji (zalecane dla nowych użytkowników)"
 
 #. Type: text
 #. Description
@@ -230,7 +248,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr ""
+msgstr "Oddzielna partycja /home"
 
 #. Type: text
 #. Description
@@ -238,7 +256,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /usr, /var, and /tmp partitions"
-msgstr ""
+msgstr "Oddzielne partycje /home, /usr, /var i /tmp"
 
 #. Type: text
 #. Description
@@ -246,4 +264,4 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr ""
+msgstr "Schemat partycjonowania małego (< 1GB) dysku"
