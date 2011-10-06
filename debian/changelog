@@ -1,4 +1,4 @@
-partman-auto (100) UNRELEASED; urgency=low
+partman-auto (100) unstable; urgency=low
 
   [ Colin Watson ]
   * Merge from Ubuntu:
@@ -11,7 +11,21 @@ partman-auto (100) UNRELEASED; urgency=low
   [ Philipp Kern ]
   * Skip auto/choices on s390x.
 
- -- Philipp Kern <pkern@debian.org>  Thu, 06 Oct 2011 18:36:34 +0200
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * German (de.po) by Holger Wansing
+  * Hebrew (he.po) by Lior Kaplan
+  * Hindi (hi.po) by Kumar Appaiah
+  * Italian (it.po) by Milo Casagrande
+  * Macedonian (mk.po) by Arangel Angov
+  * Polish (pl.po) by Marcin Owsiany
+  * Romanian (ro.po) by Ioan Eugen Stan
+  * Sinhala (si.po) by Danishka Navin
+  * Turkish (tr.po) by Mert Dirik
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
+
+ -- Philipp Kern <pkern@debian.org>  Thu, 06 Oct 2011 18:50:22 +0200
 
 partman-auto (99) unstable; urgency=low
 
