@@ -5,10 +5,13 @@ partman-auto (100) UNRELEASED; urgency=low
     - Determine memory size for RAM-dependent recipe elements more
       accurately on i386 (LP: #604765).
 
-  [ Matt Kraai]
+  [ Matt Kraai ]
   * Enable LVM in mipsel/loongson-2f recipes (closes: #637970).
 
- -- Matt Kraai <kraai@debian.org>  Mon, 15 Aug 2011 21:28:26 -0700
+  [ Philipp Kern ]
+  * Skip auto/choices on s390x.
+
+ -- Philipp Kern <pkern@debian.org>  Thu, 06 Oct 2011 18:36:34 +0200
 
 partman-auto (99) unstable; urgency=low
 
