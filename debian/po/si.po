@@ -3,43 +3,19 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-#
-#
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files
-#
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt
-#
-#
-# Danishka Navin <danishka@gmail.com>, 2009, 2011.
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2011-09-07 07:59+0530\n"
-"Last-Translator: Danishka Navin <danishka@gmail.com>\n"
-"Language-Team: Sinhala <info@hanthana.org>\n"
-"Language: si\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr "කරුණාකර රැදී සිටින්න..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr "නව කොටස් ගණනය කරමින්..."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -49,7 +25,7 @@ msgstr "නව කොටස් ගණනය කරමින්..."
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "තෝරාගත් තැටිය කොටස් කල නොහැකි විය"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -59,8 +35,6 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
-"මෙය බොහෝවිට තෝරාගත් තැටිය හෝ හිස් ඉඩ ස්වයංක්‍රීය කොටස්කරණය සඳහා ප්‍රමාණවත් නොවන නිසා විය "
-"හැක."
 
 #. Type: error
 #. Description
@@ -69,7 +43,7 @@ msgstr ""
 msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
-msgstr "මෙය බොහෝ විට කොටස් වගුවේ බොහෝ (ප්‍රාථමික) කොටස් පැවතීම නිසා විය හැක."
+msgstr ""
 
 #. Type: select
 #. Description
@@ -79,7 +53,7 @@ msgstr "මෙය බොහෝ විට කොටස් වගුවේ බො�
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr "කොටස්කිරීමෙ ක්‍රමය:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -91,8 +65,6 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
-"තැටියක් කොටස් කිරීමට උපදෙස් දීමට ස්ථාපකයට හැක. එසේ නොමැති නම් ඔත කැමති නම් ඔබට එය අතින් කළ "
-"හැක. උපදේශිත කොටස් කිරීමේදිද ඔබට ප්‍රතිඵල පසුව පරීක්ෂාකර රිසිකරණය කිරීමේ හැකියාව පවතී."
 
 #. Type: select
 #. Description
@@ -105,15 +77,13 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
-"ඔබ මුළු තැටියක් සඳහාම උපදේශිත කොටස් කිරීම තේරුවහොත් කුමන තැටිය භාවිතා කරන්නදැති ඊළඟට ඔබෙන් "
-"අසනු ඇත."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr "කොටස් කරන ක්‍රමය:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -126,7 +96,7 @@ msgstr "කොටස් කරන ක්‍රමය:"
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr "කොටස්කිරීමට තෝරාගත්තේ:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -135,14 +105,14 @@ msgstr "කොටස්කිරීමට තෝරාගත්තේ:"
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
-msgstr "තැටිය වෙනස්වූ ක්‍රම වලින් කොටස් කළ හැක. ඔබට විශ්වාස නැති නම් පළමු ක්‍රමය තෝරන්න."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr "භාවිත කල නොහැකි හිස් ඉඩ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -152,8 +122,6 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"තෝරාගත් හිස් ඉඩ භාවිත කල නොහැකි නිසා කොටස්කරණය අසාර්ථක විය, බොහෝ විට මෙය කොටස්කිරීමේ වගවේ "
-"බොහෝ (ප්‍රාථමික) කොටස් පැවතීම නිසා විය හැක."
 
 #. Type: text
 #. Description
@@ -161,7 +129,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr "උපදෙස් සහිත කොටස් කිරීම"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -169,7 +137,7 @@ msgstr "උපදෙස් සහිත කොටස් කිරීම"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr "උපදේශනය - විශාලතම අඛණ්ඩ හිස් ඉඩ භාවිතා කරන්න"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -177,14 +145,14 @@ msgstr "උපදේශනය - විශාලතම අඛණ්ඩ හිස�
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr "උපදෙස් සහිත - සම්පූර්ණ තැටියම භාවිත කරන්න"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr "කොටස් කිරීමට තැටිය තෝරන්න:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -194,8 +162,6 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"ඔබ තෝරාගත් තැටියේ ඇති සියලු දත්ත මැකෙනු ඇත, නමුත් ඒ ඔබට වෙනස් කම් සිදුකිරීමට අවශ්‍ය බව ස්තිර "
-"කිරීමට පළමුව නොවේ."
 
 #. Type: text
 #. Description
@@ -204,7 +170,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:17001
 msgid "Manual"
-msgstr "ක්‍රමික"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -212,7 +178,7 @@ msgstr "ක්‍රමික"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr "ඉතිරි ඉඩ ස්වයංක්‍රීයව කොටස්කරන්න"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -220,7 +186,7 @@ msgstr "ඉතිරි ඉඩ ස්වයංක්‍රීයව කොටස
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr "සියලු ගොනු එකම කොටසක (නවකයින් සඳහා අනුමත ඇත)"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -228,7 +194,7 @@ msgstr "සියලු ගොනු එකම කොටසක (නවකයි�
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr "වෙනම /home කොටස"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -236,7 +202,7 @@ msgstr "වෙනම /home කොටස"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /usr, /var, and /tmp partitions"
-msgstr "වෙන්වු /home, /usr, /var, සහ /tmp කොටස්"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -244,4 +210,4 @@ msgstr "වෙන්වු /home, /usr, /var, සහ /tmp කොටස්"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr "කුඩා තැටි (< 1GB) කොටස්කරණ ක්‍රමය"
+msgstr ""
