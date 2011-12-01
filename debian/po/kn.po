@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2011-11-18 19:11+0530\n"
+"PO-Revision-Date: 2011-11-27 23:24+0530\n"
 "Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
@@ -70,6 +70,7 @@ msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
 msgstr ""
+"ಬಹುಷಃ ವಿಭಜನಾ ಕೋಷ್ಠಕದಲ್ಲಿ ತುಂಬಾ (ಪ್ರಾಥಮಿಕ)ವಿಭಜನೆಗಳಿರುವುದರಿಂದಾಗಿ ಹೀಗಾಗಿರಬಹುದು."
 
 #. Type: select
 #. Description
