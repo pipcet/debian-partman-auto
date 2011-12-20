@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2011-11-27 23:24+0530\n"
+"PO-Revision-Date: 2011-12-17 11:35+0530\n"
 "Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
@@ -61,6 +61,8 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
+"ಇದು ಬಹುಶಃ ಆಯ್ಕೆ ಮಾಡಿದ ಡಿಸ್ಕ್ ಅಥವಾ ಖಾಲಿ ಸ್ಥಳ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ವಿಭಜಿಸಲು ತುಂಬಾ "
+"ಚಿಕ್ಕದಿರುವುದರಿಂದ ಸಂಭವಿಸಿರಬಹುದು."
 
 #. Type: error
 #. Description
