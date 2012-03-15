@@ -1,3 +1,16 @@
+partman-auto (101) unstable; urgency=low
+
+  [ Updated translations ]
+  * Asturian (ast.po) by Mikel González
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Estonian (et.po) by Mattias Põldaru
+  * Hebrew (he.po) by Lior Kaplan
+  * Indonesian (id.po) by Mahyuddin Susanto
+  * Icelandic (is.po) by Sveinn í Felli
+  * Kannada (kn.po) by Prabodh C P
+
+ -- Otavio Salvador <otavio@debian.org>  Thu, 15 Mar 2012 14:54:05 -0300
+
 partman-auto (100) unstable; urgency=low
 
   [ Colin Watson ]
