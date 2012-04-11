@@ -1,3 +1,10 @@
+partman-auto (102) UNRELEASED; urgency=low
+
+  * Tweak armhf atomic recipes slightly: if $default_filesystem{ } is used,
+    then the parted filesystem should be $default_filesystem too.
+
+ -- Colin Watson <cjwatson@debian.org>  Wed, 11 Apr 2012 12:06:34 +0100
+
 partman-auto (101) unstable; urgency=low
 
   [ Updated translations ]
