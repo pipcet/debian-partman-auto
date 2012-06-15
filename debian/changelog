@@ -1,9 +1,20 @@
-partman-auto (102) UNRELEASED; urgency=low
+partman-auto (102) unstable; urgency=low
 
+  [ Colin Watson ]
   * Tweak armhf atomic recipes slightly: if $default_filesystem{ } is used,
     then the parted filesystem should be $default_filesystem too.
 
- -- Colin Watson <cjwatson@debian.org>  Wed, 11 Apr 2012 12:06:34 +0100
+  [ Updated translations ]
+  * Tibetan (bo.po) by Tennom
+  * Welsh (cy.po) by Dafydd Tomos
+  * Lithuanian (lt.po) by Rimas Kudelis
+  * Latvian (lv.po) by Rūdolfs Mazurs
+  * Macedonian (mk.po) by Arangel Angov
+  * Panjabi (pa.po) by A S Alam
+  * Portuguese (Brazil) (pt_BR.po) by Felipe Augusto van de Wiel (faw)
+  * Traditional Chinese (zh_TW.po) by Yao Wei (魏銘廷)
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 15 Jun 2012 12:23:51 +0200
 
 partman-auto (101) unstable; urgency=low
 
