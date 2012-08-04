@@ -1,9 +1,11 @@
 partman-auto (103) UNRELEASED; urgency=low
 
+  * Increase /boot partition size in powermac_oldworld recipes.
+    (Closes: #683233)
   * Enable ext2 formatted /boot partition in chrp_pegasos recipes.  Pegasos 
     is not able to boot from ext4.
 
- -- Milan Kupcevic <milan@physics.harvard.edu>  Sun, 01 Jul 2012 21:13:33 -0400
+ -- Milan Kupcevic <milan@physics.harvard.edu>  Fri, 03 Aug 2012 23:13:57 -0400
 
 partman-auto (102) unstable; urgency=low
 
