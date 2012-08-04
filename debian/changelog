@@ -9,6 +9,7 @@ partman-auto (103) UNRELEASED; urgency=low
   [ Christian Perrier ]
   * Add self to Uploaders and drop Anton who is inactive for a while now
     Thanks for your contributions, Anton.
+  * Replace XC-Package-Type by Package-Type
 
  -- Christian Perrier <bubulle@debian.org>  Sat, 04 Aug 2012 08:21:20 +0200
 
