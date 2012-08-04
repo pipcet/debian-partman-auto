@@ -1,4 +1,4 @@
-partman-auto (103) UNRELEASED; urgency=low
+partman-auto (103) unstable; urgency=low
 
   [ Milan Kupcevic ]
   * Increase /boot partition size in powermac_oldworld recipes.
@@ -12,7 +12,7 @@ partman-auto (103) UNRELEASED; urgency=low
   * Replace XC-Package-Type by Package-Type
   * Add a lintian override for using-imperative-form-in-templates
 
- -- Christian Perrier <bubulle@debian.org>  Sat, 04 Aug 2012 08:21:20 +0200
+ -- Christian Perrier <bubulle@debian.org>  Sat, 04 Aug 2012 09:20:23 +0200
 
 partman-auto (102) unstable; urgency=low
 
