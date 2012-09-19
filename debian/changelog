@@ -1,3 +1,17 @@
+partman-auto (104) UNRELEASED; urgency=low
+
+  [ Steve McIntyre ]
+  * Add x86 UEFI support, merging some code from Ubuntu to help:
+    + Add extra recipe method "reusemethod" to help us reuse existing EFI
+      system partitions
+    + Clone the ia64 recipes for {amd64,i386}-efi and tweak. Merge
+      across some of the Ubuntu settings for these new recipes, including
+      use of reusemethod.
+    + Make the EFI system partition large by default to meet fat32
+      recommendations
+
+ -- Steve McIntyre <93sam@debian.org>  Tue, 21 Aug 2012 23:19:23 +0100
+
 partman-auto (103) unstable; urgency=low
 
   [ Milan Kupcevic ]

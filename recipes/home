@@ -2,11 +2,11 @@ partman-auto/text/home_scheme ::
 
 1 1 1 free
 	$iflabel{ gpt }
+	$reusemethod{ }
 	method{ biosgrub } .
 
 128 512 256 ext2
 	$defaultignore{ }
-	$bootable{ }
 	method{ format }
 	format{ }
 	use_filesystem{ }
@@ -15,7 +15,6 @@ partman-auto/text/home_scheme ::
 
 900 4000 10000 $default_filesystem
 	$lvmok{ }
-	$bootable{ }
 	method{ format }
 	format{ }
 	use_filesystem{ }
@@ -24,6 +23,7 @@ partman-auto/text/home_scheme ::
 
 96 512 200% linux-swap
 	$lvmok{ }
+	$reusemethod{ }
 	method{ swap }
 	format{ } .
 

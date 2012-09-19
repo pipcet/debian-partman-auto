@@ -1,9 +1,10 @@
 partman-auto/text/atomic_scheme ::
 
-1 1 1 free
+512 512 1024 free
 	$iflabel{ gpt }
 	$reusemethod{ }
-	method{ biosgrub } .
+	method{ efi }
+	format{ } .
 
 128 512 256 ext2
 	$defaultignore{ }
@@ -13,7 +14,7 @@ partman-auto/text/atomic_scheme ::
 	filesystem{ ext2 }
 	mountpoint{ /boot } .
 
-900 10000 -1 $default_filesystem
+500 10000 -1 $default_filesystem
 	$lvmok{ }
 	method{ format }
 	format{ }
@@ -21,7 +22,7 @@ partman-auto/text/atomic_scheme ::
 	$default_filesystem{ }
 	mountpoint{ / } .
 
-96 512 200% linux-swap
+100% 512 200% linux-swap
 	$lvmok{ }
 	$reusemethod{ }
 	method{ swap }
