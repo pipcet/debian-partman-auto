@@ -1,4 +1,4 @@
-partman-auto (104) UNRELEASED; urgency=low
+partman-auto (104) unstable; urgency=low
 
   [ Steve McIntyre ]
   * Add x86 UEFI support, merging some code from Ubuntu to help:
@@ -10,7 +10,7 @@ partman-auto (104) UNRELEASED; urgency=low
     + Make the EFI system partition large by default to meet fat32
       recommendations
 
- -- Steve McIntyre <93sam@debian.org>  Tue, 21 Aug 2012 23:19:23 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Thu, 20 Sep 2012 15:25:52 +0200
 
 partman-auto (103) unstable; urgency=low
 
