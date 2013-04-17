@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2013-04-16 05:30+0200\n"
+"PO-Revision-Date: 2013-04-17 18:08+0200\n"
 "Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -153,7 +153,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr "Neuporabljiv prostor"
+msgstr "Neupotrebljiv prostor"
 
 #. Type: error
 #. Description
@@ -163,7 +163,7 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"Particioniranje nije uspjelo jer izabrani slobodni prostor nije moguće "
+"Particioniranje nije uspjelo jer se izabrani slobodni prostor ne može "
 "koristiti. Vjerojatno ima previše (primarnih) particija u particijskoj "
 "tablici."
 
