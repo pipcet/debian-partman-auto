@@ -1,3 +1,15 @@
+partman-auto (108) UNRELEASED; urgency=low
+
+  [ Petter Reinholdtsen ]
+
+  * Introduce new hook /lib/partman/not-enough-space.d/ called if
+    there is not enough space available to use the provided recipe.
+    This make it possible for Debian derivatives to abort the
+    installation if it is going to fail before the partitioning take
+    place (Closes: #653305).
+
+ -- Petter Reinholdtsen <pere@debian.org>  Mon, 15 Jul 2013 12:00:51 +0200
+
 partman-auto (108) unstable; urgency=low
 
   [ Dmitrijs Ledkovs ]

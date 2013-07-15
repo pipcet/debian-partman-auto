@@ -358,11 +358,20 @@ choose_recipe () {
 	if [ ! -z "$RET" ] && [ -e "$RET" ]; then
 		recipe="$RET"
 		decode_recipe $recipe $type
-		if [ $(min_size) -le $free_size ]; then
+		min_size=$(min_size)
+		if [ $min_size -le $free_size ]; then
 			return 0
 		else
 			logger -t partman-auto \
-			"Available disk space ($free_size) too small for expert recipe ($(min_size)); skipping"
+			"Available disk space ($free_size) too small for expert recipe ($min_size); skipping"
+			hookdir=/lib/partman/not-enough-space.d
+			if [ -d $hookdir ] ; then
+				for h in $hookdir/* ; do
+					if [ -x $h ] ; then
+						$h $recipe $free_size $min_size
+					fi
+				done
+			fi
 		fi
 	fi
 
