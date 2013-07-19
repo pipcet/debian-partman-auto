@@ -1,4 +1,4 @@
-partman-auto (108) UNRELEASED; urgency=low
+partman-auto (109) unstable; urgency=low
 
   [ Petter Reinholdtsen ]
 
@@ -8,7 +8,7 @@ partman-auto (108) UNRELEASED; urgency=low
     installation if it is going to fail before the partitioning take
     place (Closes: #653305).
 
- -- Petter Reinholdtsen <pere@debian.org>  Mon, 15 Jul 2013 12:00:51 +0200
+ -- Christian Perrier <bubulle@debian.org>  Thu, 18 Jul 2013 20:09:29 +0200
 
 partman-auto (108) unstable; urgency=low
 
