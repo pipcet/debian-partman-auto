@@ -121,7 +121,7 @@ decode_recipe () {
 				max=$min
 			fi
 			case "$4" in # allow only valid file systems
-			    ext2|ext3|ext4|xfs|reiserfs|jfs|linux-swap|fat16|fat32|hfs|ufs)
+			    ext2|ext3|ext4|xfs|jfs|linux-swap|fat16|fat32|hfs|ufs)
 				fs="$4"
 				;;
 			    \$default_filesystem)
