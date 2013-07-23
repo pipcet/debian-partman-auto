@@ -1,8 +1,9 @@
-partman-auto (110) UNRELEASED; urgency=low
+partman-auto (110) unstable; urgency=low
 
+  [ Cyril Brulebois ]
   * Drop reiserfs from recipes.sh, it's no longer supported.
 
- -- Cyril Brulebois <kibi@debian.org>  Mon, 22 Jul 2013 03:52:58 +0200
+ -- Christian Perrier <bubulle@debian.org>  Mon, 22 Jul 2013 20:06:10 +0200
 
 partman-auto (109) unstable; urgency=low
 
