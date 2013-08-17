@@ -1,3 +1,10 @@
+partman-auto (111) unstable; urgency=low
+
+  [ Updated translations ]
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 16 Aug 2013 23:16:22 +0200
+
 partman-auto (110) unstable; urgency=low
 
   [ Cyril Brulebois ]
