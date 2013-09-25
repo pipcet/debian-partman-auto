@@ -1,3 +1,10 @@
+partman-auto (112) UNRELEASED; urgency=low
+
+  * Skip installer disk when using
+    isohybrid ISO on USB stick. Closes: #607536
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 25 Sep 2013 07:28:55 +0200
+
 partman-auto (111) unstable; urgency=low
 
   [ Updated translations ]

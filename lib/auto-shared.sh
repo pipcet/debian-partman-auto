@@ -219,6 +219,9 @@ get_auto_disks() {
 		# Skip software RAID (mdadm) devices (/dev/md/X and /dev/mdX)
 		$(echo "$device" | grep -Eq "/dev/md/?[0-9]*$") && continue
 
+		# Skip installer disk
+		$(mount | grep -qF "$device on /cdrom ") && continue
+
 		# Skip device mapper devices (/dev/mapper/),
 		# except for dmraid or multipath devices
 		if echo $device | grep -q "^/dev/mapper/"; then
