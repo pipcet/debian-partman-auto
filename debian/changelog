@@ -1,9 +1,10 @@
-partman-auto (113) UNRELEASED; urgency=low
+partman-auto (114) unstable; urgency=low
 
+  [ Colin Watson ]
   * Filter out reused partitions when calculating the size used by a recipe
     (LP: #1197766).
 
- -- Colin Watson <cjwatson@debian.org>  Mon, 30 Sep 2013 15:47:11 +0100
+ -- Christian Perrier <bubulle@debian.org>  Tue, 01 Oct 2013 07:22:08 +0200
 
 partman-auto (112) unstable; urgency=low
 
