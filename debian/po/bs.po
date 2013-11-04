@@ -10,13 +10,24 @@
 #
 # Safir Secerovic <sapphire@linux.org.ba>, 2006.
 # Armin Besirovic <armin@linux.org.ba>, 2008.
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2001,2002.
+#   Free Software Foundation, Inc., 2001,2002,2003,2004
+#   Safir Šećerović <sapphire@linux.org.ba>, 2004,2006.
+#   Vedran Ljubovic <vljubovic@smartnet.ba>, 2001
+#   (translations from drakfw).
+#   Translations from KDE:
+#   Nesiren Armin <bianchi@lugbih.org>, 2002
+#   Vedran Ljubovic <vljubovic@smartnet.ba>, 2002
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_bs\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2010-11-10 09:02+0100\n"
-"Last-Translator: Armin Beširović <armin@linux.org.ba>\n"
+"PO-Revision-Date: 2012-03-16 13:07+0100\n"
+"Last-Translator: Armin Besirovic <armin@linux.org.ba>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
@@ -90,9 +101,9 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
-"Instalater vas može voditi kroz particionisanje diska (korištenjem "
-"različitih standardnih šema), ili, ako preferirate, možete to učiniti ručno. "
-"Ako odaberete korištenje vodića, imati ćete priliku da vidite i prilagodite "
+"Instaler Vas može voditi kroz dijeljenje diska (korištenjem različitih "
+"standardnih shema), ili, ako preferirate, možete to učiniti ručno. Ako "
+"odaberete korištenje vodića, imat ćete priliku da vidite i prilagodite "
 "rezultate."
 
 #. Type: select
@@ -114,7 +125,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr "Particiona šema:"
+msgstr "Dijeljenje shema:"
 
 #. Type: select
 #. Description
@@ -137,8 +148,8 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
-"Ovaj disk se može particionisati koristeći jednu od više različitih šema. "
-"Ako niste sigurni, odaberite prvu."
+"Ovaj disk se može dijeliti koristeći jednu od više različitih shema. Ako "
+"niste sigurni, odaberite prvu."
 
 #. Type: error
 #. Description
@@ -165,7 +176,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr "Vodić za particionisanje"
+msgstr "Vodić za dijeljenej"
 
 #. Type: text
 #. Description
@@ -173,7 +184,7 @@ msgstr "Vodić za particionisanje"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr "Vođeno - koristi najveći neprekidni slobodni prostor"
+msgstr "Vođeno - koristite najveći neprekidni slobodni prostor"
 
 #. Type: text
 #. Description
@@ -181,14 +192,14 @@ msgstr "Vođeno - koristi najveći neprekidni slobodni prostor"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr "Vođeno - koristi cijeli disk"
+msgstr "Vođeno - koristite cijeli disk"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr "Odaberite disk za particionisanje:"
+msgstr "Odaberite disk za dijeljenje:"
 
 #. Type: select
 #. Description
@@ -216,7 +227,7 @@ msgstr "Ručno"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr "Automatski particioniši slobodni prostor"
+msgstr "Automatski podijelite slobodni prostor"
 
 #. Type: text
 #. Description
