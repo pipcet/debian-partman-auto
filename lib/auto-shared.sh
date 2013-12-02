@@ -208,6 +208,28 @@ create_partitions() {
 	free_space=$(partition_after $id)'
 }
 
+is_wholedisk_mdraid () {
+	local device="`echo $1 | sed -e 's!/\([0-9]*\)$!\1!'`"
+	local mddisk=${device#/dev/}
+	local ret=0
+	local d
+
+	[ -d /sys/block/$mddisk/md ] || return 1
+
+	for d in /sys/block/$mddisk/slaves/*; do
+		case "$d" in
+			dm-*|md*)
+				;;
+			*p[0-9]|*p[0-9][0-9])
+				ret=1
+				break
+				;;
+		esac
+	done
+
+	return $ret
+}
+
 get_auto_disks() {
 	local dev device dmtype
 
@@ -217,7 +239,12 @@ get_auto_disks() {
 		device=$(cat $dev/device)
 		
 		# Skip software RAID (mdadm) devices (/dev/md/X and /dev/mdX)
-		$(echo "$device" | grep -Eq "/dev/md/?[0-9]*$") && continue
+		# unless it's a whole-disk partitionable array
+		if echo "$device" | grep -Eq "/dev/md/?[0-9]*$"; then
+			if ! is_wholedisk_mdraid "$device"; then
+				continue
+			fi
+		fi
 
 		# Skip installer disk
 		$(mount | grep -qF "$device on /cdrom ") && continue
