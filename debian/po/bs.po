@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_bs\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2013-11-27 21:12+0100\n"
+"PO-Revision-Date: 2013-11-29 19:21+0100\n"
 "Last-Translator: Amila Valjevčić <valjevcic.amila@gmail.com>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
 "Language: bs\n"
@@ -57,7 +57,7 @@ msgstr "Računam nove particije..."
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "Nemogu particionisati odabrani disk"
+msgstr "Neuspješno particionisanje odabranog diska"
 
 #. Type: error
 #. Description
@@ -67,8 +67,8 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
-"Ovo se vjerovatno dogodilo zato što je odabrani disk ili slobodni prostor "
-"premali da bi se automatski particionisao."
+"Ovo se vjerovatno dogodilo jer je odabrani disk ili slobodni prostor premal "
+"da bi se automatski particionisao."
 
 #. Type: error
 #. Description
@@ -78,7 +78,7 @@ msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
 msgstr ""
-"Ovo se vjerovatno dogodilo zato što ima previše (primarnih) particija u "
+"Ovo se vjerovatno dogodilo jer ima previše (primarnih) particija u "
 "particionoj tabeli."
 
 #. Type: select
@@ -166,7 +166,7 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"Particionisanje nije uspjelo zato što se izabrani slobodni prostor ne može "
+"Particionisanje nije uspjelo jer se izabrani slobodni prostor ne može "
 "koristiti.  Vjerovatno ima previše (primarnih) particija u particionoj "
 "tabeli."
 
@@ -259,4 +259,4 @@ msgstr "Zasebne /home, /usr, /var, i /tmp particije"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr "Particiona šema za male diskove (< 1GB):"
+msgstr "Particiona shema za male diskove (< 1GB):"
