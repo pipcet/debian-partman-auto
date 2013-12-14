@@ -1,3 +1,10 @@
+partman-auto (116) UNRELEASED; urgency=low
+
+  [ Martin Michlmayr ]
+  * Remove recipes for Cobalt.
+
+ -- Martin Michlmayr <tbm@cyrius.com>  Sat, 14 Dec 2013 10:25:07 +0000
+
 partman-auto (115) unstable; urgency=low
 
   [ Miquel van Smoorenbur ]
