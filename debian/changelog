@@ -1,9 +1,9 @@
-partman-auto (116) UNRELEASED; urgency=low
+partman-auto (116) unstable; urgency=low
 
   [ Martin Michlmayr ]
   * Remove recipes for Cobalt.
 
- -- Martin Michlmayr <tbm@cyrius.com>  Sat, 14 Dec 2013 10:25:07 +0000
+ -- Christian Perrier <bubulle@debian.org>  Mon, 30 Dec 2013 07:58:20 +0100
 
 partman-auto (115) unstable; urgency=low
 
