@@ -1,3 +1,9 @@
+partman-auto (118) UNRELEASED; urgency=low
+
+  * Add arm64 recipe
+
+ -- dann frazier <dannf@debian.org>  Tue, 14 Jan 2014 17:24:45 -0700
+
 partman-auto (117) unstable; urgency=low
 
   [ Updated translations ]
