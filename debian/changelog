@@ -1,10 +1,10 @@
-partman-auto (119) UNRELEASED; urgency=medium
+partman-auto (119) unstable; urgency=medium
 
   [ Mario Limonciello ]
   * Add the rest of the support necessary to allow reusing EFI partitions
     (closes: #729326).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Tue, 08 Jul 2014 12:54:44 +0100
+ -- Colin Watson <cjwatson@debian.org>  Tue, 08 Jul 2014 12:56:28 +0100
 
 partman-auto (118) unstable; urgency=low
 
