@@ -1,9 +1,12 @@
-partman-auto (120) UNRELEASED; urgency=medium
+partman-auto (120) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Estonian (et.po) by Mattias Põldaru
 
   [ Frederic Bonnard ]
   * Add ppc64el recipes (closes: #752418).
 
- -- Aurelien Jarno <aurel32@debian.org>  Wed, 27 Aug 2014 09:51:15 +0200
+ -- Aurelien Jarno <aurel32@debian.org>  Wed, 27 Aug 2014 09:54:38 +0200
 
 partman-auto (119) unstable; urgency=medium
 
