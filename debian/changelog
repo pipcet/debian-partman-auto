@@ -3,7 +3,7 @@ partman-auto (121) unstable; urgency=medium
   [ Ian Campbell ]
   * Add arm64/efi receipe, reusing amd64/efi.
 
- -- Christian Perrier <bubulle@debian.org>  Sat, 06 Sep 2014 08:54:34 +0200
+ -- Ian Campbell <ijc@debian.org>  Fri, 05 Sep 2014 19:03:06 +0100
 
 partman-auto (120) unstable; urgency=medium
 
