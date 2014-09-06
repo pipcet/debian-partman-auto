@@ -1,3 +1,10 @@
+partman-auto (122) UNRELEASED; urgency=medium
+
+  * Increase the EFI System Partition size slightly to ensure that it's at
+    least 512MiB, not just 512MB.  See LP #1306164.
+
+ -- Colin Watson <cjwatson@debian.org>  Sat, 06 Sep 2014 16:13:44 +0100
+
 partman-auto (121) unstable; urgency=medium
 
   [ Ian Campbell ]
