@@ -25,13 +25,13 @@
 # Kumar Appaiah <kumar.appaiah@gmail.com>, 2009.
 #   Alastair McKinstry <mckinstry@debian.org>, 2004.
 # Kumar Appaiah <a.kumar@alumni.iitm.ac.in>, 2008.
-# Kumar Appaiah <kumar.appaiah@gmail.com>, 2008, 2011.
+# Kumar Appaiah <kumar.appaiah@gmail.com>, 2008, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_hi\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2011-09-17 09:17-0500\n"
+"POT-Creation-Date: 2014-09-25 22:00+0000\n"
+"PO-Revision-Date: 2012-10-02 08:22-0500\n"
 "Last-Translator: Kumar Appaiah\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: en_US\n"
@@ -253,8 +253,8 @@ msgstr "अलग /home पार्टिशन"
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
-msgid "Separate /home, /usr, /var, and /tmp partitions"
-msgstr "अलग-अलग /home, /usr, /var और /tmp पार्टिशन्स"
+msgid "Separate /home, /var, and /tmp partitions"
+msgstr "अलग-अलग /home, /var और /tmp पार्टिशन्स"
 
 #. Type: text
 #. Description

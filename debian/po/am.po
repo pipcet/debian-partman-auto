@@ -8,19 +8,24 @@
 # tegegne tefera <tefera@mekuria.com>, 2006.
 #
 #
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@debian.org>, 2004.
+#   Data taken from ICU-2.8; contributed by:
+#   - Daniel Yacob <yacob@geez.org>, Ge'ez Frontier Foundation
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2010-08-19 16:50+0800\n"
-"Last-Translator: ተገኝ ተፈራ <tefera@mekuria.com>\n"
-"Language-Team: Amharic\n"
-"Language: \n"
+"POT-Creation-Date: 2014-09-25 22:00+0000\n"
+"PO-Revision-Date: 2014-04-04 22:07+0100\n"
+"Last-Translator: Tegegne Tefera <tefera@mekuria.com>\n"
+"Language-Team: Amharic <linux-ethiopia@googlegroups.com>\n"
+"Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: n>1\n"
+"Plural-Forms: n>1;\n"
 
 #. Type: text
 #. Description
@@ -224,8 +229,8 @@ msgstr "የ /home ክፋይ ይለይ፦"
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
-msgid "Separate /home, /usr, /var, and /tmp partitions"
-msgstr "የተለዩ  /home, /usr, /var, and /tmp ክፋዮች"
+msgid "Separate /home, /var, and /tmp partitions"
+msgstr "የተለዩ  /home, /var, and /tmp ክፋዮች"
 
 #. Type: text
 #. Description

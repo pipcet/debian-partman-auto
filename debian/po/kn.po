@@ -20,9 +20,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2011-12-17 11:35+0530\n"
-"Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
+"POT-Creation-Date: 2014-09-25 22:00+0000\n"
+"PO-Revision-Date: 2013-09-30 16:17+0530\n"
+"Last-Translator: Prabodh C P (FSMK Localisation Team) <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
 "MIME-Version: 1.0\n"
@@ -240,8 +240,8 @@ msgstr "/home ವಿಭಜನೆಯನ್ನು ಬೇರ್ಪಡಿಸಿ"
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
-msgid "Separate /home, /usr, /var, and /tmp partitions"
-msgstr "/home, /usr, /var ಮತ್ತು /tmp ವಿಭಜನೆಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ"
+msgid "Separate /home, /var, and /tmp partitions"
+msgstr "/home, /var ಮತ್ತು /tmp ವಿಭಜನೆಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ"
 
 #. Type: text
 #. Description

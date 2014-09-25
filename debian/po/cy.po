@@ -20,8 +20,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2012-06-14 09:46-0000\n"
+"POT-Creation-Date: 2014-09-25 22:00+0000\n"
+"PO-Revision-Date: 2012-10-18 14:11-0000\n"
 "Last-Translator: Dafydd Tomos <l10n@da.fydd.org>\n"
 "Language-Team: Welsh <>\n"
 "Language: cy\n"
@@ -243,8 +243,8 @@ msgstr "Rhaniad /home ar wahan"
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
-msgid "Separate /home, /usr, /var, and /tmp partitions"
-msgstr "Rhaniadau /home, /usr, /var a /tmp ar wahan"
+msgid "Separate /home, /var, and /tmp partitions"
+msgstr "Rhaniadau /home, /var a /tmp ar wahan"
 
 #. Type: text
 #. Description
