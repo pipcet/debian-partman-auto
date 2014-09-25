@@ -26,14 +26,14 @@
 #   YunQiang Su <wzssyqa@gmail.com>, 2011.
 #
 #   Mai Hao Hui <mhh@126.com>, 2001 (translations from galeon)
-# YunQiang Su <wzssyqa@gmail.com>, 2010, 2011.
+# YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2011-08-11 11:13+0800\n"
+"POT-Creation-Date: 2014-09-25 22:00+0000\n"
+"PO-Revision-Date: 2014-03-05 14:59+0800\n"
 "Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -247,8 +247,8 @@ msgstr "将 /home 放在单独的分区"
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
-msgid "Separate /home, /usr, /var, and /tmp partitions"
-msgstr "将 /home、/usr、/var 和 /tmp 都分别放在单独的分区"
+msgid "Separate /home, /var, and /tmp partitions"
+msgstr "将 /home、/var 和 /tmp 都分别放在单独的分区"
 
 #. Type: text
 #. Description

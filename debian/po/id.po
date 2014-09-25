@@ -31,12 +31,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2012-02-13 03:15+0700\n"
-"Last-Translator: Mahyuddin Susanto <udienz@ubuntu.com>\n"
+"POT-Creation-Date: 2014-09-25 22:00+0000\n"
+"PO-Revision-Date: 2012-10-18 21:29+0700\n"
+"Last-Translator: T. Surya Fajri <kilelme@gmail.com>\n"
 "Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists."
 "debian.org>\n"
-"Language: \n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -258,8 +258,8 @@ msgstr "Partisi /home yang terpisah"
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
-msgid "Separate /home, /usr, /var, and /tmp partitions"
-msgstr "Partisi /home, /usr, /var, dan /tmp terpisah"
+msgid "Separate /home, /var, and /tmp partitions"
+msgstr "Partisi /home, /var, dan /tmp terpisah"
 
 #. Type: text
 #. Description

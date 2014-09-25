@@ -6,11 +6,17 @@
 # Irish messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
+#
+# Translations from iso-codes:
+# Alastair McKinstry <mckinstry@computer.org>, 2001,2002
+# Free Software Foundation, Inc., 2001,2003
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004, 2008, 2009, 2011.
+# Sean V. Kelley <s_oceallaigh@yahoo.com>, 1999
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2011-02-06 22:48+0000\n"
+"POT-Creation-Date: 2014-09-25 22:00+0000\n"
 "PO-Revision-Date: 2006-03-21 14:42-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -233,8 +239,8 @@ msgstr "Deighilt /home ar leith"
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
-msgid "Separate /home, /usr, /var, and /tmp partitions"
-msgstr "Deighiltí /home, /usr/, /var, agus /tmp ar leith"
+msgid "Separate /home, /var, and /tmp partitions"
+msgstr "Deighiltí /home, /var, agus /tmp ar leith"
 
 #. Type: text
 #. Description

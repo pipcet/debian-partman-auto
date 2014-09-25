@@ -18,9 +18,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2011-02-06 22:48+0000\n"
-"PO-Revision-Date: 2012-10-09 13:08+0100\n"
-"Last-Translator: ivarela <ivarela@ubuntu.com>\n"
+"POT-Creation-Date: 2014-09-25 22:00+0000\n"
+"PO-Revision-Date: 2012-10-10 02:04+0100\n"
+"Last-Translator: Mikel González <mikelglez@softastur.org>\n"
 "Language-Team: Softastur\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
@@ -242,8 +242,8 @@ msgstr "Dixebrar partición /home"
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
-msgid "Separate /home, /usr, /var, and /tmp partitions"
-msgstr "Dixebrar particiones /home, /usr, /var y /tmp"
+msgid "Separate /home, /var, and /tmp partitions"
+msgstr "Dixebrar particiones /home, /var y /tmp"
 
 #. Type: text
 #. Description
