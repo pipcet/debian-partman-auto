@@ -1,3 +1,9 @@
+partman-auto (124) unstable; urgency=medium
+
+  * Translations unfuzzied for /usr removal.
+
+ -- Joey Hess <joeyh@debian.org>  Fri, 26 Sep 2014 16:40:03 -0400
+
 partman-auto (123) unstable; urgency=medium
 
   [ Ben Hutchings ]
