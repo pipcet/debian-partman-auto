@@ -1,3 +1,10 @@
+partman-auto (125) UNRELEASED; urgency=medium
+
+  * Reinstate symlinks which were accidentally replaced with their target files
+    in 124.
+
+ -- Ian Campbell <ijc@debian.org>  Wed, 28 Jan 2015 08:46:49 +0000
+
 partman-auto (124) unstable; urgency=medium
 
   * Translations unfuzzied for /usr removal.
