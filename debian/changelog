@@ -1,4 +1,4 @@
-partman-auto (125) UNRELEASED; urgency=medium
+partman-auto (125) unstable; urgency=medium
 
   * Reinstate symlinks which were accidentally replaced with older copies of
     their target files in 124. This reinstates the following which were in 123
@@ -10,7 +10,7 @@ partman-auto (125) UNRELEASED; urgency=medium
     - mipsel-cobalt:
       - Remove recipes (from 116).
 
- -- Ian Campbell <ijc@debian.org>  Wed, 28 Jan 2015 08:46:49 +0000
+ -- Ian Campbell <ijc@debian.org>  Wed, 28 Jan 2015 09:05:17 +0000
 
 partman-auto (124) unstable; urgency=medium
 
