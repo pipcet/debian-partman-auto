@@ -1,7 +1,14 @@
 partman-auto (125) UNRELEASED; urgency=medium
 
-  * Reinstate symlinks which were accidentally replaced with their target files
-    in 124.
+  * Reinstate symlinks which were accidentally replaced with older copies of
+    their target files in 124. This reinstates the following which were in 123
+    or earlier:
+    - arm64, arm64-efi and i386-efi:
+      - Combine / and /usr partitions in 'multi' recipes (from 123).
+      - Increase the EFI System Partition size slightly to ensure that it's at
+        least 512MiB, not just 512MB (from 122).
+    - mipsel-cobalt:
+      - Remove recipes (from 116).
 
  -- Ian Campbell <ijc@debian.org>  Wed, 28 Jan 2015 08:46:49 +0000
 
