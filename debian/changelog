@@ -1,3 +1,10 @@
+partman-auto (126) unstable; urgency=low
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 08 Mar 2015 11:45:24 +0100
+
 partman-auto (125) unstable; urgency=medium
 
   * Reinstate symlinks which were accidentally replaced with older copies of
