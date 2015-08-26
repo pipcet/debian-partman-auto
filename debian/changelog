@@ -1,3 +1,11 @@
+partman-auto (130) UNRELEASED; urgency=medium
+
+  [ Aurelien Jarno 
+  * Remove recipes for sb1-bcm91250a sb1a-bcm91480b as these flavours are
+    now gone.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Wed, 26 Aug 2015 09:48:35 +0200
+
 partman-auto (129) unstable; urgency=medium
 
   [ Updated translations ]
