@@ -1,7 +1,6 @@
 partman-auto (130) unstable; urgency=medium
 
   [ Aurelien Jarno ]
-  [ Aurelien Jarno 
   * Remove recipes for sb1-bcm91250a sb1a-bcm91480b as these flavours are
     now gone.
 
