@@ -2,6 +2,7 @@ partman-auto (131) UNRELEASED; urgency=medium
 
   [ Helge Deller ]
   * Increase palo and /boot partitions on hppa architecture
+  * Increase /boot partition on alpha architecture
 
  -- Helge Deller <deller@gmx.de>  Tue, 06 Oct 2015 17:40:07 +0100
 
