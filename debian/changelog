@@ -1,10 +1,10 @@
-partman-auto (131) UNRELEASED; urgency=medium
+partman-auto (131) unstable; urgency=medium
 
   [ Helge Deller ]
   * Increase palo and /boot partitions on hppa architecture
   * Increase /boot partition on alpha architecture
 
- -- Helge Deller <deller@gmx.de>  Tue, 06 Oct 2015 17:40:07 +0100
+ -- Christian Perrier <bubulle@debian.org>  Thu, 08 Oct 2015 07:09:32 +0200
 
 partman-auto (130) unstable; urgency=medium
 
