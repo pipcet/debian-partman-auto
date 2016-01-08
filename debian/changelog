@@ -1,10 +1,10 @@
-partman-auto (132) UNRELEASED; urgency=medium
+partman-auto (132) unstable; urgency=medium
 
   [ Martin Michlmayr ]
   * Remove recipes for armel/iop32x and armel/ixp4xx as these flavours
     are no longer supported.
 
- -- Martin Michlmayr <tbm@cyrius.com>  Wed, 06 Jan 2016 10:24:46 -0800
+ -- Christian Perrier <bubulle@debian.org>  Fri, 08 Jan 2016 06:52:25 +0100
 
 partman-auto (131) unstable; urgency=medium
 
