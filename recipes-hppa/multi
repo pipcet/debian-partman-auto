@@ -42,7 +42,7 @@ partman-auto/text/multi_scheme ::
 	$default_filesystem{ }
 	mountpoint{ /tmp } .
 
-4000 3000 -1 $default_filesystem
+4000 10000 -1 $default_filesystem
 	$lvmok{ }
 	method{ format }
 	format{ }

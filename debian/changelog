@@ -19,6 +19,8 @@ partman-auto (133) UNRELEASED; urgency=medium
       - Increase minimum size of / partition to 2000 MB, of /var to 1000 MB,
         of /tmp to 256 MB and of /home to 4000 MB.  This ensures that this
         option is no longer offered on 4 GB disks.
+      - Increase priority of /home partition since most space should be
+        allocated to it.
 
  -- Martin Michlmayr <tbm@cyrius.com>  Fri, 08 Jan 2016 17:00:34 -0800
 
