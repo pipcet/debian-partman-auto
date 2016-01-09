@@ -8,6 +8,10 @@ partman-auto (133) UNRELEASED; urgency=medium
     - home:
       - Increase maximum size of / partition to 20 GB or 30 GB, depending
         on the platform.
+      - Increase minimum size of / partition to 1500 MB and of /home to
+        1000 MB.  This allocates more space to the / partition on smaller
+        disks and ensures the separate /home option is not offered on 2 GB
+        disks.
     - multi:
       - Increase maximum size of / partition to 25 GB.  Closes: #725642
       - Increase maximum size of /var partition to 10 GB.  Closes: #803604
