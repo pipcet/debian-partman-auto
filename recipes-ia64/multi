@@ -5,7 +5,7 @@ partman-auto/text/multi_scheme ::
 	method{ efi }
 	format{ } .
 
-2000 7000 25000 $default_filesystem
+2000 3500 25000 $default_filesystem
 	$primary{ }
 	method{ format }
 	format{ }

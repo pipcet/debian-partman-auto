@@ -25,6 +25,7 @@ partman-auto (133) UNRELEASED; urgency=medium
         allocated to it.
       - Increase priority of /tmp partition so more than the minimum is
         allocated to it.
+      - Adjust priority of / partition in relation to other partitions.
 
  -- Martin Michlmayr <tbm@cyrius.com>  Fri, 08 Jan 2016 17:00:34 -0800
 
