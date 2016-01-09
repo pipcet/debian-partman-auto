@@ -21,6 +21,8 @@ partman-auto (133) UNRELEASED; urgency=medium
         option is no longer offered on 4 GB disks.
       - Increase priority of /home partition since most space should be
         allocated to it.
+      - Increase priority of /tmp partition so more than the minimum is
+        allocated to it.
 
  -- Martin Michlmayr <tbm@cyrius.com>  Fri, 08 Jan 2016 17:00:34 -0800
 
