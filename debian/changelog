@@ -12,6 +12,8 @@ partman-auto (133) UNRELEASED; urgency=medium
         1000 MB.  This allocates more space to the / partition on smaller
         disks and ensures the separate /home option is not offered on 2 GB
         disks.
+      - Increase priority of / partition so more space is allocated to it
+        on small disks.  Closes: #770032
     - multi:
       - Increase maximum size of / partition to 25 GB.  Closes: #725642
       - Increase maximum size of /var partition to 10 GB.  Closes: #803604
