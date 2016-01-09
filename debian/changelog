@@ -16,6 +16,9 @@ partman-auto (133) UNRELEASED; urgency=medium
       - Increase maximum size of / partition to 25 GB.  Closes: #725642
       - Increase maximum size of /var partition to 10 GB.  Closes: #803604
       - Increase maximum size of /tmp partition to 2 GB.
+      - Increase minimum size of / partition to 2000 MB, of /var to 1000 MB,
+        of /tmp to 256 MB and of /home to 4000 MB.  This ensures that this
+        option is no longer offered on 4 GB disks.
 
  -- Martin Michlmayr <tbm@cyrius.com>  Fri, 08 Jan 2016 17:00:34 -0800
 
