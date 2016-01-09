@@ -14,7 +14,7 @@ partman-auto/text/multi_scheme ::
 	filesystem{ ext2 }
 	mountpoint{ /boot } .
 
-800 7000 7000 $default_filesystem
+800 7000 25000 $default_filesystem
 	$lvmok{ }
 	method{ format }
 	format{ }
@@ -22,7 +22,7 @@ partman-auto/text/multi_scheme ::
 	$default_filesystem{ }
 	mountpoint{ / } .
 
-60 1500 3000 $default_filesystem
+60 1500 10000 $default_filesystem
 	$lvmok{ }
 	method{ format }
 	format{ }
@@ -36,7 +36,7 @@ partman-auto/text/multi_scheme ::
 	method{ swap }
 	format{ } .
 
-50 300 400 $default_filesystem
+50 300 2000 $default_filesystem
 	$lvmok{ }
 	method{ format }
 	format{ }

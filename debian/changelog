@@ -8,6 +8,10 @@ partman-auto (133) UNRELEASED; urgency=medium
     - home:
       - Increase maximum size of / partition to 20 GB or 30 GB, depending
         on the platform.
+    - multi:
+      - Increase maximum size of / partition to 25 GB.  Closes: #725642
+      - Increase maximum size of /var partition to 10 GB.  Closes: #803604
+      - Increase maximum size of /tmp partition to 2 GB.
 
  -- Martin Michlmayr <tbm@cyrius.com>  Fri, 08 Jan 2016 17:00:34 -0800
 
