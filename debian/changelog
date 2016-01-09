@@ -1,3 +1,13 @@
+partman-auto (133) UNRELEASED; urgency=medium
+
+  [ Martin Michlmayr ]
+  * Update partition layout defaults:
+    - atomic:
+      - Set minimimum size of / partition to 900 MB for platforms without
+        separate /boot partition and to 800 MB for those with /boot.
+
+ -- Martin Michlmayr <tbm@cyrius.com>  Fri, 08 Jan 2016 17:00:34 -0800
+
 partman-auto (132) unstable; urgency=medium
 
   [ Martin Michlmayr ]
