@@ -5,7 +5,7 @@ partman-auto/text/home_scheme ::
 	$bootable{ }
 	method{ prep } .
 
-500 4000 7000 $default_filesystem
+500 4000 20000 $default_filesystem
 	$lvmok{ }
 	$primary{ }
 	method{ format }

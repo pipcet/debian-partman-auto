@@ -5,6 +5,9 @@ partman-auto (133) UNRELEASED; urgency=medium
     - atomic:
       - Set minimimum size of / partition to 900 MB for platforms without
         separate /boot partition and to 800 MB for those with /boot.
+    - home:
+      - Increase maximum size of / partition to 20 GB or 30 GB, depending
+        on the platform.
 
  -- Martin Michlmayr <tbm@cyrius.com>  Fri, 08 Jan 2016 17:00:34 -0800
 
