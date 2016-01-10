@@ -1,4 +1,4 @@
-partman-auto (133) UNRELEASED; urgency=medium
+partman-auto (133) unstable; urgency=medium
 
   [ Martin Michlmayr ]
   * Update partition layout defaults:
@@ -27,7 +27,7 @@ partman-auto (133) UNRELEASED; urgency=medium
         allocated to it.
       - Adjust priority of / partition in relation to other partitions.
 
- -- Martin Michlmayr <tbm@cyrius.com>  Fri, 08 Jan 2016 17:00:34 -0800
+ -- Christian Perrier <bubulle@debian.org>  Sun, 10 Jan 2016 07:01:50 +0100
 
 partman-auto (132) unstable; urgency=medium
 
