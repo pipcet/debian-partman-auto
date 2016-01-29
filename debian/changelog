@@ -1,3 +1,9 @@
+partman-auto (134) UNRELEASED; urgency=medium
+
+  * Use HTTPS for Vcs-* URLs, and link to cgit rather than gitweb.
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jan 2016 13:35:20 +0000
+
 partman-auto (133) unstable; urgency=medium
 
   [ Martin Michlmayr ]
