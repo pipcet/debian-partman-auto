@@ -13,7 +13,7 @@ partman-auto/text/home_scheme ::
 	$default_filesystem{ }
 	mountpoint{ / } .
 
-96 512 2048 linux-swap
+100% 512 2048 linux-swap
 	method{ swap }
 	format{ } .
 

@@ -20,7 +20,7 @@ partman-auto/text/multi_scheme ::
 	$default_filesystem{ }
 	mountpoint{ /var } .
 
-96 512 2048 linux-swap
+100% 512 2048 linux-swap
 	method{ swap }
 	format{ } .
 

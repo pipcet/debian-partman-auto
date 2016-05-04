@@ -1,3 +1,12 @@
+partman-auto (135) UNRELEASED; urgency=medium
+
+  [ Steve McIntyre ]
+  * Update the lower bound for all receipes to 100% for consistency;
+    modern machines have a lot more RAM than we're currently allocating
+    for.
+
+ -- Steve McIntyre <93sam@debian.org>  Thu, 05 May 2016 00:18:40 +0100
+
 partman-auto (134) unstable; urgency=medium
 
   [ Colin Watson ]

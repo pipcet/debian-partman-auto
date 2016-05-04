@@ -21,7 +21,7 @@ partman-auto/text/home_scheme ::
 	$default_filesystem{ }
 	mountpoint{ / } .
 
-96 512 200% linux-swap
+100% 512 200% linux-swap
 	$lvmok{ }
 	$reusemethod{ }
 	method{ swap }
