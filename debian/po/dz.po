@@ -3,44 +3,19 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of dz.po to Dzongkha
-# Translation of debian-installer level 1 Dzongkha
-# Debian Installer master translation file template
-# Copyright @ 2006 Free Software Foundation, Inc.
-# Sonam Rinchen <somchen@druknet.bt>, 2006.
-#
-#
-# Translations from iso-codes:
-#   Free Software Foundation, Inc., 2006
-#   Kinley Tshering <gaseokuenden2k3@hotmail.com>, 2006
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: dDz.po\n"
-"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: 2012-02-29 04:41-0500\n"
-"Last-Translator: Jurmey Rabgay <jrabgay@dit.gov.bt>\n"
-"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
-"Language: dz\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr "བསྒུག་གནང་..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr "བར་བཅད་གསརཔ་ཚུ་གློག་རིག་ནང་བཙུགས་ནི..."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -50,7 +25,7 @@ msgstr "བར་བཅད་གསརཔ་ཚུ་གློག་རིག་
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཌིཀསི་བར་བཅད་འབད་ནི་ལུ་མཐར་འཁྱོལ་མ་བྱུང་།"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -60,8 +35,6 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
-"འདི་འཕྲལ་འཕྲལ་རང་དེ་སྦེ་འབྱུངམ་ཨིན་འདི་ག་ཅི་སྦེ་ཨིན་ན་ཟེར་བ་ཅིན་སེལ་འཐུ་འབད་ཡོད་པའི་ཌིཀསི་ཡང་ན་རང་"
-"བཞིན་གྱིས་བར་བཅད་འབད་ཡོད་མི་ལུ་བར་སྟོང་གནམ་སྟོང་འདི་ན་མེད་ས་མེད་ཆུང་མི་ལས་བརྟེན་ཏེ་ཨིན།"
 
 #. Type: error
 #. Description
@@ -71,8 +44,6 @@ msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
 msgstr ""
-"འདི་འཕྲལ་འཕྲལ་རང་དེ་སྦེ་འབྱུངམ་ཨིན་འདི་ག་ཅི་སྦེ་ཨིན་ན་ཟེར་བ་ཅིན་བར་བཅད་ཐིག་ཁྲམ་ནང་(གཞི་རིམ་)བར་"
-"བཅད་ཚུ་ལེ་ཤཱ་ཡོད་མི་ལས་བརྟེན་ཏེ་ཨིན།་"
 
 #. Type: select
 #. Description
@@ -82,7 +53,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr "བར་བཅད་འབད་ནིའི་ཐབས་ལམ།"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -94,9 +65,6 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
-"གཞི་བཙུགས་པ་འདི་གིས་ (ཚད་ལྡན་ལས་འཆར་སོ་སོ་ལག་ལེན་འཐབ་ཐོག་ལས་) ཁྱོད་ཌིཀསི་ཅིག་བར་གཅད་ནིའི་"
-"ལམསྟོན་འབདཝ་ཨིན་ ཡང་ན་ ཁྱོད་རང་མནོ་བ་ཅིན་ ལག་ཐོག་ལས་འབད་བཏུབ།  ལམ་སྟོན་ཅན་གྱི་བར་གཅད་ཀྱི་ཐོག་"
-"ལས་ ཁྱོད་ཀྱིས་ཤུལ་ལས་ གྲུབ་འབྲས་ཚུ་ བསྐྱར་ཞིབ་འབད་དེ་ སྲོལ་སྒྲིག་འབད་ནིའི་ གོ་སྐབས་ཡོད།"
 
 #. Type: select
 #. Description
@@ -109,15 +77,13 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
-"ཁྱོད་ཀྱིས་ཌིཀསི་ཧྲིལ་བུ་ཅིག་གི་དོན་ལུ་ ལམ་སྟོན་ཅན་གྱི་བར་གཅད་ གདམ་ཁ་བརྐྱཔས་པ་ཅིན་ ཤུལ་ལས་ཁྱོད་ལུ་ "
-"ཌིཀསི་ག་དེ་ལག་ལེན་འཐབ་ནི་ཨིན་ན་འདྲི་འོང་།"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr "འཆར་ལས་བར་བཅད་འབད་དོ:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -130,7 +96,7 @@ msgstr "འཆར་ལས་བར་བཅད་འབད་དོ:"
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr "བར་བཅད་བཟོ་ནི་གི་དོན་ལུ་ སེལ་འཐུ་འབད་ཡི་:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -140,15 +106,13 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
-"འཆར་ལས་ཚུ་ལེ་ཤ་ཅིག་སོ་སོ་ཡོད་མིའི་གྲལ་ལས་གཅིག་ལག་ལེན་འཐབ་པ་ཅིན་ཌིཀསི་འདི་བར་བཅད་འབད་ཚུགས་ ཁྱོད་"
-"ལག་ལེན་འཐབ་མི་མེན་པ་ཅིན་ དང་པམ་འདི་གདམ་ཁ་རྐྱབས།"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr "ལག་ལེན་འཐབ་མ་བཏུབ་པའི་བར་སྟོང་གནམ་སྟོང་།"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -158,8 +122,6 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"བར་བཅད་འབད་ནི་ལུ་འཐུས་ཤོར་འབྱུང་ནུག་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་གདམ་ཁ་རྐྱབ་ཡོད་མི་བར་སྟོང་གནམ་སྟོང་འདི་ལག་"
-"ལེན་འཐབ་མི་བཏུབ་འོང་ བར་བཅད་ཐིག་ཁྲམ་ནང་ལུ་(གཞི་རིམ་)བར་བཅད་ཚུ་ལེ་ཤ་ཡོདཔ་འོང་།"
 
 #. Type: text
 #. Description
@@ -167,7 +129,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr "བར་བཅད་འབད་ནིའི་ལམ་སྟོན།"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -175,7 +137,7 @@ msgstr "བར་བཅད་འབད་ནིའི་ལམ་སྟོན།
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr "ལམ་སྟོན་ཅན་ - འཕྲོ་མཐུད་ཅན་གྱི་ བར་སྟོང་རིང་ཤོས་དེ་ལག་ལེན་འཐབ།"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -183,14 +145,14 @@ msgstr "ལམ་སྟོན་ཅན་ - འཕྲོ་མཐུད་ཅན
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr "ལམ་སྟོན་ཅན་གྱི་- ཌིཀསི་ཧྲིལ་བུ་ལག་ལེན་འཐབ།"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr "བར་བཅད་བཟོ་ནི་གི་དོན་ལུ་ ཌིཀསི་སེལ་འཐུ་འབད་:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -200,8 +162,6 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་མི་ ཌིཀསི་དེ་ནང་ཡོད་པའི་ གནས་སྡུད་ཆ་མཉམ་ ཀྲེག་གཏང་ནི་ཨིནཙ་སེམས་ཁར་ངེས། ཨིན་"
-"རུང་ ཁྱོད་ལུ་ཐད་རི་འབད་རི་ བསྒྱུར་བཅོས་འབད་ནི་ ཨིནམ་མེནམ་ངེས་དཔྱད་འབད་དེ་མ་གཏོགས་ ཀྲེག་མི་གཏང་།"
 
 #. Type: text
 #. Description
@@ -210,7 +170,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:17001
 msgid "Manual"
-msgstr "ལག་ཐེབ།"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -218,7 +178,7 @@ msgstr "ལག་ཐེབ།"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr "བར་སྟོང་གནམ་སྟོང་འདི་རང་བཞིན་གྱིས་བར་བཅད་འབད་དོ།"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -226,7 +186,7 @@ msgstr "བར་སྟོང་གནམ་སྟོང་འདི་རང་
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr "ཡིག་སྣོད་ཚུ་ཆ་མཉམ་བར་བཅད་གཅིག་ནང་(ལག་ལེན་པ་གསརཔ་ཚུ་ལུ་འོས་སྦྱོར་འབད་ཡོདཔ་)"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -234,7 +194,7 @@ msgstr "ཡིག་སྣོད་ཚུ་ཆ་མཉམ་བར་བཅད
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr "སོ་སོ་འཕྱལ་ནི་/ཁྱིམ་གྱི་བར་བཅད།"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -242,7 +202,7 @@ msgstr "སོ་སོ་འཕྱལ་ནི་/ཁྱིམ་གྱི་�
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr "Separate /home, /var, and /tmp བར་བཅད་སོ་སོ་ཚུ།"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -250,4 +210,4 @@ msgstr "Separate /home, /var, and /tmp བར་བཅད་སོ་སོ་�
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr "ཆུང་ཀུ་-ཌིཀསི་(< 1GB)བར་བཅད་འབད་ནིའི་འཆར་ལས།"
+msgstr ""

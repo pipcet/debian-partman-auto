@@ -3,41 +3,19 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Irish messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Translations from iso-codes:
-# Alastair McKinstry <mckinstry@computer.org>, 2001,2002
-# Free Software Foundation, Inc., 2001,2003
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004, 2008, 2009, 2011.
-# Sean V. Kelley <s_oceallaigh@yahoo.com>, 1999
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: 2006-03-21 14:42-0500\n"
-"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
-"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
-"Language: ga\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr "Fan go fóill, le do thoil..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr "Deighiltí nua á n-áireamh..."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -47,7 +25,7 @@ msgstr "Deighiltí nua á n-áireamh..."
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "Theip ar an diosca roghnaithe a dheighilt"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -57,8 +35,6 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
-"Is dócha gur tharla sé seo toisc go bhfuil an diosca nó spás saor roghnaithe "
-"róbheag chun é a dheighilt go huathoibríoch."
 
 #. Type: error
 #. Description
@@ -68,8 +44,6 @@ msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
 msgstr ""
-"Is dócha gur tharla sé seo toisc go bhfuil an iomarca deighiltí (príomha) i "
-"dtábla na ndeighiltí."
 
 #. Type: select
 #. Description
@@ -79,7 +53,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr "Modh deighilte:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -91,10 +65,6 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
-"Is féidir leis an suiteálaí thú a threorú trí dheighilt do dhiosca (le "
-"scéimeanna éagsúla caighdeánacha) nó, más fearr leat, is féidir an diosca a "
-"dheighilt de láimh.  Le deighilt treoraithe, beidh deis agat na torthaí a "
-"athbhreithniú agus a athchumrú ar ball."
 
 #. Type: select
 #. Description
@@ -107,15 +77,13 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
-"Má roghnaíonn tú Deighilt Threoraithe ar an diosca iomlán, fiafrófar díot "
-"ina dhiaidh seo cé acu diosca is mian leat a úsáid."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr "Scéim dheighilte:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -128,7 +96,7 @@ msgstr "Scéim dheighilte:"
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr "Roghnaithe le deighilt:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -138,15 +106,13 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
-"Is féidir an diosca a dheighilt trí scéimeanna éagsúla.  Mura bhfuil tú "
-"cinnte, roghnaigh an chéad cheann."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr "Spás saor do-úsáidte"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -156,8 +122,6 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"Theip ar dheighilt toisc nach féidir an spás saor roghnaithe a úsáid. Is "
-"dócha go bhfuil an iomarca deighiltí (príomha) i dtábla na ndeighiltí."
 
 #. Type: text
 #. Description
@@ -165,7 +129,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr "Deighilt treoraithe"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -173,7 +137,7 @@ msgstr "Deighilt treoraithe"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr "Treoraithe - úsáid an spás saor leanúnach is mó"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -181,14 +145,14 @@ msgstr "Treoraithe - úsáid an spás saor leanúnach is mó"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr "Treoraithe - úsáid an diosca ina iomláine"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr "Roghnaigh diosca le deighilt:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -198,8 +162,6 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"Tabhair faoi deara go scriosfar na sonraí go léir ar an diosca a roghnóidh "
-"tú, tar éis duit deimhniú gur mian leat na hathruithe a chur i bhfeidhm."
 
 #. Type: text
 #. Description
@@ -208,7 +170,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:17001
 msgid "Manual"
-msgstr "De Láimh"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -216,7 +178,7 @@ msgstr "De Láimh"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr "Deighil an spás saor go huathoibríoch"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -224,7 +186,7 @@ msgstr "Deighil an spás saor go huathoibríoch"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr "Gach comhad in aon deighilt (molta d'úsáideoirí nua)"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -232,7 +194,7 @@ msgstr "Gach comhad in aon deighilt (molta d'úsáideoirí nua)"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr "Deighilt /home ar leith"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -240,7 +202,7 @@ msgstr "Deighilt /home ar leith"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr "Deighiltí /home, /var, agus /tmp ar leith"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -248,4 +210,4 @@ msgstr "Deighiltí /home, /var, agus /tmp ar leith"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr "Scéim dheighilte do dhiosca beag (< 1GB)"
+msgstr ""

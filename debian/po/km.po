@@ -3,39 +3,19 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of km.po to Khmer
-# Khoem Sokhem <khoemsokhem@khmeros.info>, 2006, 2007, 2008, 2010.
-#   eng vannak <evannak@khmeros.info>, 2006.
-#   auk piseth <piseth_dv@khmeros.info>, 2006.
-#   Khoem Sokhem <khoemsokhem@khmeros.info>, 2006, 2010, 2012.
-# Translations from iso-codes:
-msgid ""
-msgstr ""
-"Project-Id-Version: km\n"
-"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: 2012-01-18 15:40+0700\n"
-"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
-"Language-Team: Khmer <support@khmeros.info>\n"
-"Language: km\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr "សូមរង់ចាំ..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr "កំពុង​គណនាភាគ​ថាសថ្មី..."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -45,7 +25,7 @@ msgstr "កំពុង​គណនាភាគ​ថាសថ្មី..."
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "បរាជ័យ​ក្នុងការ​ចែក​ថាស​ដែល​បាន​ជ្រើស​ជា​ភាគ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -55,8 +35,6 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
-"វា​ប្រហែល​ជា​កើត​ឡើង​ដោយ​សារ​តែ​ថាស ឬ ទំហំ​ទំនេរ​ដែល​បាន​ជ្រើស មាន​ទំហំ​តូច​ពេក​រហូត​មិន​អាច​ចែក​ដោយ​"
-"ស្វ័យប្រវត្តិ​បាន ។"
 
 #. Type: error
 #. Description
@@ -65,7 +43,7 @@ msgstr ""
 msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
-msgstr "វា​ប្រហែល​ជា​កើត​ឡើង​ដោយ​សារ​តែ​មាន​ភាគ​ថាស (ចម្បង) ច្រើន​ពេក​នៅ​ក្នុង​តារាង​ភាគ​ថាស ។"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -75,7 +53,7 @@ msgstr "វា​ប្រហែល​ជា​កើត​ឡើង​ដោយ
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr "វិធីសាស្ត្រ​ចែក​ភាគ​ថាស ៖"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -87,9 +65,6 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
-"កម្មវិធី​ដំឡើង​អាច​ណែនាំ​អ្នក​តាមរយៈការ​ចែក​ភាគ​ថាស (ដោយ​ប្រើ​គ្រោងការណ៍​ស្តង់ដា​​ផ្សេងៗ​គ្នា) ឬ ប្រសិន​បើ​"
-"អ្នក​ពេញចិត្ត អ្នក​អាច​ធ្វើ​វា​ដោយដៃ ។ ជា​មួយ​នឹង​ការ​ចែក​ភាគ​ថាស​ដែល​មាន​ការ​ណែនាំ អ្នក​នឹង​នៅ​តែ​មាន​ឳកាស​"
-"ពេល​ក្រោយ ដើម្បី​ពិនិត្យ​មើល និង​ធ្វើ​លទ្ធផល​តាម​បំណង ។"
 
 #. Type: select
 #. Description
@@ -102,15 +77,13 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
-"ប្រសិន​បើ​អ្នក​ជ្រើស​ការ​ចែក​ភាគ​ថាស​ដែល​មាន​ការ​ណែ​នាំ​សម្រាប់​ថាស​ទាំង​មូល បន្ទាប់ អ្នក​នឹង​ត្រូវ​បាន​សួរ ថា​តើ​"
-"ថាស​មួយ​ណា​គួរ​ត្រូវ​បាន​ប្រើ ។"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr "គ្រោងការណ៍​ចែក​ភាគ​ថាស ៖"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -123,7 +96,7 @@ msgstr "គ្រោងការណ៍​ចែក​ភាគ​ថាស ៖"
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr "បាន​ជ្រើស​ដើម្បី​ចែក​ជា​ភាគ ៖"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -133,15 +106,13 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
-"អ្នក​អាច​ចែក​ថាស​ជា​ភាគ​ដោយ​ប្រើ​គ្រោងការណ៍​មួយ​ក្នុង​ចំណោម​គ្រោងការណ៍​ផ្សេងៗ​ជា​ច្រើន ។ បើ​អ្នក​មិន​ច្បាស់ សូម​"
-"ជ្រើស​គ្រោងការណ៍​ទីមួយ ។"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr "ទំហំ​ទំនេរ​ដែល​មិន​អាច​ប្រើ​បាន"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -151,8 +122,6 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"ការ​ចែក​ភាគថាស​បាន​បរាជ័យ​ហើយ ពីព្រោះ​ទំហំថាស​ទំនេរ​ដែល​បាន​ជ្រើស​ប្រហែល​ជា​មិន​ត្រូវ​បាន​ប្រើ ។ ប្រហែល​"
-"ជាមាន​ភាគ​ថាស (ចម្បង) ច្រើន​ពេក​ក្នុង​តារាង​ភាគ​ថាស ។"
 
 #. Type: text
 #. Description
@@ -160,7 +129,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr "ការ​ចែក​ថាស​ជា​ភាគ​ដែល​បាន​ណែនាំ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -168,7 +137,7 @@ msgstr "ការ​ចែក​ថាស​ជា​ភាគ​ដែល​ប
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr "បានណែនាំ - ប្រើ​ទំហំ​ទំនេរ​បន្ត​ធំ​ជាង​គេ​បំផុត"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -176,14 +145,14 @@ msgstr "បានណែនាំ - ប្រើ​ទំហំ​ទំនេរ
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr "បាន​ណែនាំ - ប្រើ​ថាស​ទាំងមូល"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr "ជ្រើស​ថាស​ត្រូវ​ចែក​ជាភាគ ៖"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -193,8 +162,6 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"ចំណាំ​ថា​ទិន្នន័យ​ទាំងអស់​នៅ​លើ​ថាស​ដែល​អ្នក​ជ្រើស​នឹង​ត្រូវ​បាន​លុប ប៉ុន្តែ​មិនមែន​មុន ពេល​ដែល​អ្នក​បាន​អះអាង​នោះ​"
-"ទេ ដែល​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ការ​ផ្លាស់ប្ដូរ ។"
 
 #. Type: text
 #. Description
@@ -203,7 +170,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:17001
 msgid "Manual"
-msgstr "ដោយដៃ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -211,7 +178,7 @@ msgstr "ដោយដៃ"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr "ចែក​ទំហំ​ទំនេរ​ដោយ​ស្វ័យប្រវត្តិ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -219,7 +186,7 @@ msgstr "ចែក​ទំហំ​ទំនេរ​ដោយ​ស្វ័យ
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr "ឯកសារ​ទាំងអស់​ក្នុង​​ភាគថាសមួយ (ផ្ដល់​អនុសាសន៍​សម្រាប់​អ្នក​ប្រើថ្មី)"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -227,7 +194,7 @@ msgstr "ឯកសារ​ទាំងអស់​ក្នុង​​ភាគ
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr "បំបែក​ភាគ​ថាស /home"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -235,7 +202,7 @@ msgstr "បំបែក​ភាគ​ថាស /home"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr "បំបែក​ភាគថាស /home, /var និង /tmp"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -243,4 +210,4 @@ msgstr "បំបែក​ភាគថាស /home, /var និង /tmp"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr "គ្រោងការណ៍​ចែក​ថាស​តូចៗ (< ១ ជីកាបៃ)"
+msgstr ""

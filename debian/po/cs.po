@@ -3,43 +3,19 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Czech messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Free Software Foundation, 2002,2004 
-#   Miroslav Kure <kurem@debian.cz>, 2004--2010.
-#   Petr Cech <cech@debian.org> (Petr Čech), 2000.
-#   Stanislav Brabec <utx@penguin.cz>, 2001.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: 2014-08-12 07:33+0200\n"
-"Last-Translator:  Miroslav Kure <kurem@debian.cz>\n"
-"Language-Team:  Czech <provoz@debian.cz>\n"
-"Language: cs\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr "Prosím čekejte..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr "Vypočítávají se nové oblasti..."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -49,7 +25,7 @@ msgstr "Vypočítávají se nové oblasti..."
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "Selhalo rozdělení vybraného disku"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -59,8 +35,6 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
-"Možná se to stalo proto, že vybraný disk nebo volné místo je příliš malé pro "
-"automatické rozdělení."
 
 #. Type: error
 #. Description
@@ -70,8 +44,6 @@ msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
 msgstr ""
-"Možná se to stalo kvůli tomu, že v tabulce oblastí existuje příliš mnoho "
-"(primárních) oblastí."
 
 #. Type: select
 #. Description
@@ -81,7 +53,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr "Způsob rozdělení:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -93,10 +65,6 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
-"Instalační program vás může provést rozdělením disku (pomocí několika "
-"připravených šablon), nebo také můžete disk rozdělit ručně. Chcete-li využít "
-"asistovaného dělení, stále budete mít možnost si prohlédnout a upravit "
-"navrhované změny."
 
 #. Type: select
 #. Description
@@ -109,15 +77,13 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
-"Zvolíte-li asistované rozdělení celého disku, budete dále dotázáni, který "
-"disk se má použít."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr "Způsob rozdělení:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -130,7 +96,7 @@ msgstr "Způsob rozdělení:"
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr "Vybráno pro rozdělení:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -140,15 +106,13 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
-"Disk můžete rozdělit různými způsoby. Pokud si nejste jisti, vyberte první z "
-"nich."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr "Nepoužitelné volné místo"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -158,8 +122,6 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"Rozdělování selhalo, protože zvolené volné místo se nedá použít. V tabulce "
-"oblastí možná existuje příliš mnoho (primárních) oblastí."
 
 #. Type: text
 #. Description
@@ -167,7 +129,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr "Asistované rozdělení"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -175,7 +137,7 @@ msgstr "Asistované rozdělení"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr "Asistované - použít největší spojité volné místo"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -183,14 +145,14 @@ msgstr "Asistované - použít největší spojité volné místo"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr "Asistované - použít celý disk"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr "Vyberte disk pro rozdělení:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -200,8 +162,6 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"Všechna data na zvoleném disku budou smazána, ale ne dříve, než potvrdíte, "
-"že opravdu chcete provést navrhované změny."
 
 #. Type: text
 #. Description
@@ -210,7 +170,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:17001
 msgid "Manual"
-msgstr "Ruční"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -218,7 +178,7 @@ msgstr "Ruční"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr "Automaticky rozdělit volné místo"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -226,7 +186,7 @@ msgstr "Automaticky rozdělit volné místo"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr "Všechny soubory v jedné oblasti (doporučeno pro začátečníky)"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -234,7 +194,7 @@ msgstr "Všechny soubory v jedné oblasti (doporučeno pro začátečníky)"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr "Samostatná oblast pro /home"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -242,7 +202,7 @@ msgstr "Samostatná oblast pro /home"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr "Samostatné oblasti pro /home, /var a /tmp"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -250,4 +210,4 @@ msgstr "Samostatné oblasti pro /home, /var a /tmp"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr "Rozdělení vhodné pro malý disk (< 1GB)"
+msgstr ""

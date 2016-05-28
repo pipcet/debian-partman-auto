@@ -3,58 +3,19 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of el.po to
-# Greek messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-#
-# Translations from iso-codes:
-#     Translations taken from ICU SVN on 2007-09-09
-#   Panayotis Pakos <aeikineton@yahoo.com>
-# George Papamichelakis <george@step.gr>, 2004.
-# Emmanuel Galatoulas <galas@tee.gr>, 2004.
-# Konstantinos Margaritis <markos@debian.org>, 2004, 2006.
-# Greek Translation Team <debian-l10n-greek@lists.debian.org>, 2004, 2005.
-# quad-nrg.net <galaxico@quad-nrg.net>, 2005, 2006, 2007.
-# quad-nrg.net <yodesy@quad-nrg.net>, 2006, 2008.
-# QUAD-nrg.net <yodesy@quad-nrg.net>, 2006.
-# galaxico@quad-nrg.net <galaxico@quad-nrg.net>, 2009, 2011.
-# Emmanuel Galatoulas <galaxico@quad-nrg.net>, 2009, 2010, 2013, 2014.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#   Free Software Foundation, Inc., 2004.
-#   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   QUAD-nrg.net <yodesy@quad-nrg.net>, 2006, 2010.
-#   Simos Xenitellis <simos@hellug.gr>, 2001.
-#   Konstantinos Margaritis <markos@debian.org>, 2004.
-#   Athanasios Lefteris <alefteris@gmail.com>, 2008, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: el\n"
-"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: 2014-05-11 13:37+0300\n"
-"Last-Translator: galaxico <galaxico@quad-nrg.net>\n"
-"Language-Team: el <debian-l10n-greek@lists.debian.org>\n"
-"Language: el\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr "Παρακαλώ περιμένετε..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr "Υπολογισμός των νέων κατατμήσεων..."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -64,7 +25,7 @@ msgstr "Υπολογισμός των νέων κατατμήσεων..."
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "Αποτυχία διαμέρισης του επιλεγμένου δίσκου"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -74,8 +35,6 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
-"Αυτό πιθανόν συνέβη διότι ο επιλεγμένος δίσκος ή διαθέσιμος χώρος δεν έχουν "
-"το απαραίτητο μέγεθος για αυτόματη διαμέριση."
 
 #. Type: error
 #. Description
@@ -85,8 +44,6 @@ msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
 msgstr ""
-"Αυτό πιθανόν συνέβη διότι υπάρχουν υπεράριθμες (πρωτεύουσες) κατάτμησεις "
-"στον πίνακα διαμέρισης."
 
 #. Type: select
 #. Description
@@ -96,7 +53,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr "Μέθοδος διαμέρισης:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -108,11 +65,6 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
-"Το πρόγραμμα εγκατάστασης μπορεί να σας καθοδηγήσει στην διαμέριση ενός "
-"δίσκου (με τη χρήση διαφορετικών στάνταρ σχημάτων) ή, αν προτιμάτε, μπορείτε "
-"να κάνετε την διαμέριση με το χέρι. Με την καθοδηγούμενη διαμέριση "
-"εξακολυθείτε να έχετε την ευκαιρία αργότερα να αναθεωρήσετε και να "
-"προσαρμόσετε τα αποτελέσματα της διαμέρισης."
 
 #. Type: select
 #. Description
@@ -125,15 +77,13 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
-"Αν επιλέξετε καθοδηγούμενη διαμέριση για έναν ολόκληρο δίσκο, θα σας ζητηθεί "
-"στην συνέχεια ποιος δίσκος θα πρέπει να χρησιμοποιηθεί."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr "Σχήμα διαμέρισης:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -146,7 +96,7 @@ msgstr "Σχήμα διαμέρισης:"
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr "Δίσκος που επιλέχθηκε για διαμέριση:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -156,15 +106,13 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
-"Είναι δυνατή η επιλογή διαφορετικών μεθόδων για την διαμέριση αυτού του "
-"δίσκου. Αν δεν είστε βέβαιοι, επιλέξτε την πρώτη."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr "Μη χρησιμοποιήσιμος διαθέσιμος χώρος"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -174,9 +122,6 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"Η διαμέριση απέτυχε διότι ο επιλεγμένος διαθέσιμος χώρος δε μπορεί να "
-"χρησιμοποιηθεί.  Πιθανώς υπάρχουν πολλές (πρωτεύουσες) κατατμήσεις στον "
-"πίνακα διαμέρισης."
 
 #. Type: text
 #. Description
@@ -184,7 +129,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr "Καθοδηγούμενη διαμέριση"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -193,7 +138,6 @@ msgstr "Καθοδηγούμενη διαμέριση"
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
 msgstr ""
-"Καθοδηγούμενη διαμέριση - χρήση του μεγαλύτερου συνεχούς ελεύθερου χώρου"
 
 #. Type: text
 #. Description
@@ -201,14 +145,14 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr "Καθοδηγούμενη διαμέριση - χρήση ολόκληρου του δίσκου"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr "Επιλέξτε τον δίσκος για διαμέριση:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -218,8 +162,6 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"Σημειώστε ότι όλα τα δεδομένα στον δίσκο που έχετε επιλέξει θα διαγραφούν, "
-"αλλά όχι πριν επιβεβαιώσετε ότι θέλετε πραγματικά να κάνετε τις αλλαγές."
 
 #. Type: text
 #. Description
@@ -228,7 +170,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:17001
 msgid "Manual"
-msgstr "Διαχείριση με το χέρι"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -236,7 +178,7 @@ msgstr "Διαχείριση με το χέρι"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr "Αυτόματη διαμέριση του ελεύθερου χώρου"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -244,7 +186,7 @@ msgstr "Αυτόματη διαμέριση του ελεύθερου χώρου
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr "Όλα τα αρχεία στην ίδια κατάτμηση (συνίσταται για νέους χρήστες)"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -252,7 +194,7 @@ msgstr "Όλα τα αρχεία στην ίδια κατάτμηση (συνί�
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr "Ξεχωριστή κατάτμηση /home"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -260,7 +202,7 @@ msgstr "Ξεχωριστή κατάτμηση /home"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr "Ξεχωριστές κατατμήσεις /home, /var και /tmp"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -268,4 +210,4 @@ msgstr "Ξεχωριστές κατατμήσεις /home, /var και /tmp"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr "Σχήμα διαμέρισης για μικρό δίσκο (<1GB)"
+msgstr ""
