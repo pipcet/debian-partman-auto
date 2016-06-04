@@ -3,47 +3,19 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of ta.po to Tamil
-# Tamil messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-#
-# Translations from iso-codes:
-# drtvasudevan <agnihot3@gmail.com>, 2006.
-# Damodharan Rajalingam <rdamodharan@gmail.com>, 2006.
-# Dr.T.Vasudevan <drtvasudevan@gmail.com>, 2007, 2008, 2010.
-# Dr,T,Vasudevan <agnihot3@gmail.com>, 2010.
-#   Dr.T.Vasudevan <drtvasudevan@gmail.com>, 2007, 2008, 2011, 2012, 2015.
-#   Dwayne Bailey <dwayne@translate.org.za>, 2009.
-# I. Felix <ifelix25@gmail.com>, 2009, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: ta\n"
-"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Tamil <<gnome-tamil-translation@googlegroups.com>>\n"
-"Language: ta\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr "பொறுத்திருக்கவும்..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr "புதிய பகிர்வுகள் கணக்கிடப்படுகின்றன..."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -53,7 +25,7 @@ msgstr "புதிய பகிர்வுகள் கணக்கிடப�
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "தேர்வு செய்த வட்டினை பகுக்க இயலவில்லை"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -63,8 +35,6 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
-"தாங்கள் தேர்வு செய்த வட்டு அல்லது வெற்றிடம் தானாக பகிர்வு செய்யும் அளவிற்கு பெரியதாக "
-"இல்லாமலிருக்கலாம்."
 
 #. Type: error
 #. Description
@@ -74,7 +44,6 @@ msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
 msgstr ""
-"இதற்கு பகிர்வு அட்டவணையில் மிக அதிக முதன்மை பகிர்வுகள் இருப்பது காரணமாக இருக்கலாம்."
 
 #. Type: select
 #. Description
@@ -84,7 +53,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr "பகிர்வு செய்யும் முறை:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -96,9 +65,6 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
-"இந்த நிறுவி டிபியனுக்கான பகிர்வுகளை அமைக்க தங்களை வழிநடத்தும். அல்லது தாங்களே அதை "
-"செய்யலாம். தாங்கள் பகிர்வு கருவியின் துணைகொண்டு பகிர்வு செய்தாலும் செய்த மாற்றங்களை "
-"காணவும் மாற்றியமைக்கவும் வாய்ப்பு அளிக்கப்படும்."
 
 #. Type: select
 #. Description
@@ -111,15 +77,13 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
-"நீங்கள் வழிநடத்தப்பட்ட பகிர்வு முறையை தேர்வு செய்தால் அடுத்து எந்த வட்டை பகிர்வு "
-"செய்யவேண்டும் என்பதை கூற வேண்டும்."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr "பகிர்தலுக்கான திட்டமுறை:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -132,7 +96,7 @@ msgstr "பகிர்தலுக்கான திட்டமுறை:"
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr "பகிர்வு செய்ய தேர்வு செய்யப்பட்டது:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -142,15 +106,13 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
-"வட்டினை இருக்கும் பல திட்டமுறைகளில் ஏதேனும் ஒன்றினைக் கொண்டு பகிர்வு செய்யலாம். தாங்கள் "
-"தெளிவில்லாத பட்சத்தில் முதல் திட்டத்தினை தேர்வு செய்யவும்."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr "பயன்படுத்த முடியாத வெற்று இடம்"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -160,8 +122,6 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"தேர்ந்தெடுத்த வெற்றிடத்தை உபயோகிக்க இயலாததால் பகிர்தல் தோல்வியடைந்தது. பகிர்வு அட்டவணையில் "
-"மிக அதிக முதன்மை பகிர்வுகள் இருக்க வாய்ப்புள்ளது."
 
 #. Type: text
 #. Description
@@ -169,7 +129,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr "வழிநடத்தபட்ட பகிர்வு"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -177,7 +137,7 @@ msgstr "வழிநடத்தபட்ட பகிர்வு"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr "வழிநடத்தி - மிகப் பெரிய தொடர் வெற்றிடத்தை உபயோகி"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -185,14 +145,14 @@ msgstr "வழிநடத்தி - மிகப் பெரிய தொட�
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr "வழிநடத்தபட்ட - முழு வட்டையும் உபயோகி"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr "பகிர்வு செய்யவேண்டிய வட்டை தேர்வு செய்:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -202,8 +162,6 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"நீங்கள் தேர்வு செய்த வட்டில் உள்ள அனைத்து தகவல்களும் அழிக்கப்படும். ஆனால் அதற்கு முன் இந்த "
-"மாற்றங்களை நீங்கள் செய்ய விரும்புகிறீர்களா என்பதை உறுதிபடுத்த வேண்டும்."
 
 #. Type: text
 #. Description
@@ -212,7 +170,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:17001
 msgid "Manual"
-msgstr "கைமுறை"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -220,7 +178,7 @@ msgstr "கைமுறை"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr "வெற்றிடத்தை தானாக பகிர்வு செய்க"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -228,7 +186,7 @@ msgstr "வெற்றிடத்தை தானாக பகிர்வு 
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr "அனைத்து கோப்புகளையும் ஒரே பகிர்வில் (புதிய பயனர்களுக்கு உகந்தது)"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -236,7 +194,7 @@ msgstr "அனைத்து கோப்புகளையும் ஒரே 
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr "தனியான /இல்ல பகிர்வு"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -244,7 +202,7 @@ msgstr "தனியான /இல்ல பகிர்வு"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr "தனியான /home, /var மற்றும் /tmp பகிர்வுகள்"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -252,4 +210,4 @@ msgstr "தனியான /home, /var மற்றும் /tmp பகிர�
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr "சிறிய வட்டு (<1GB) பகிர்வுத் திட்டம்"
+msgstr ""

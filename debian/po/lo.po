@@ -3,38 +3,19 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of lo.po to Lao
-# Lao translation of debian-installer.
-# Copyright (C) 2006-2010 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Anousak Souphavanh <anousak@gmail.com>, 2010.
-msgid ""
-msgstr ""
-"Project-Id-Version: lo\n"
-"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: 2012-04-25 09:05+0700\n"
-"Last-Translator: Anousak Souphavanh <anousak@gmail.com>\n"
-"Language-Team: Lao <lo@li.org>\n"
-"Language: lo\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr "ກະລຸນາລໍຖ້າ..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr "ກຳລັງຄຳນວນພາທິຊັນໃໝ່..."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -44,7 +25,7 @@ msgstr "ກຳລັງຄຳນວນພາທິຊັນໃໝ່..."
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "ບໍ່ສາມາດແບ່ງພາທີ່ຊັ່ນໃນດີສທີ່ເລືອກ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -53,7 +34,7 @@ msgstr "ບໍ່ສາມາດແບ່ງພາທີ່ຊັ່ນໃນດ
 msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
-msgstr "ອາດເປັນຍອ້ນດິດທີ່ເລືອກຫຼືພື້ນທີ່ຫວ່າງນອ້ຍເກີນກວ່າຈະແບ່ງພາທິຊັນໂດຍອັດຕະໂນມັດໄດ້."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -62,7 +43,7 @@ msgstr "ອາດເປັນຍອ້ນດິດທີ່ເລືອກຫຼ
 msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
-msgstr "ອາດເປັນຍອ້ນມີຈຳນວນພາທິຊັນ(ທີ່ເປັນໄພມາລີ)ຫຼາຍເກີນໄປໃນຕາຕະລາງພາທິຊັນ"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -72,7 +53,7 @@ msgstr "ອາດເປັນຍອ້ນມີຈຳນວນພາທິຊັ
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr "ວິທີແບ່ງພາທິຊັນ:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -84,9 +65,6 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
-"ໂປຣແກມຕິດຕັ້ງນີ້ຈະພາທ່ານສູ່ຂັ້ນຕອນຕ່າງໆ ຂອງການແບ່ງພາທິຊັນໃນດີສ(ໂດຍໃຊ້ວິທີແບ່ງແບບປົກກະຕິ) ຫລື "
-"ທ່ານຈະແບ່ງພາທິຊັນເອງກໍ່ໄດ້ຖ້າທ່ານຕ້ອງການ ຖ້າທ່ານເລືອກໃຊ້ເຄື່ອງມືແນະແນວທາງການແບ່ງພາທິຊັນ "
-"ທ່ານມີໂອກາດເບີ່ງຜົນການແບ່ງ ແລ້ວປັບຄ່າໃນພາຍຫລັງ."
 
 #. Type: select
 #. Description
@@ -98,14 +76,14 @@ msgstr ""
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
-msgstr "ຖ້າທ່ານເລືອກການແບ່ງພາທິຊັນແບບແນະນຳທາງ ທ່ານຈະຖືກຖາມຫາດີສທີ່ຈະໃຊ້ໃນຂັ້ນຕໍ່ໄປ.."
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr "ແນວທາງການແບ່ງພາທິຊັນ:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -118,7 +96,7 @@ msgstr "ແນວທາງການແບ່ງພາທິຊັນ:"
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr "ສິ່ງທີ່ເລືອກໄວ້ເພື່ອແບ່ງພາທິຊັນ:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -127,14 +105,14 @@ msgstr "ສິ່ງທີ່ເລືອກໄວ້ເພື່ອແບ່ງ
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
-msgstr "ທ່ານສາມາດແບ່ງພາທິຊັນໄດ້ຫລາຍແນວທາງ ຫາກທ່ານບໍ່ມັ່ນໃນ ຂໍໃຫ້ເລືອກໂຕເລືອກທຳອິດ."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr "ພື້ນທີ່ວ່າງທີ່ໃຊ້ບໍ່ໄດ້"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -144,8 +122,6 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"ແບ່ງພາທິຊັນບໍ່ສຳເລັດຍອ້ນພື້ນທີ່ວ່າງທີ່ເລືອກບໍ່ສາມາດໄຊ້ການໄດ້ເປັນໄປໄດ້ວ່າມີຈຳນວນພາທິຊັນ (ທີ່ເປັນໄພມາລີ) "
-"ຫຼາຍເກີນໄປໃນຕາຕະລາງພາທິຊັນ."
 
 #. Type: text
 #. Description
@@ -153,7 +129,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr "ແນວທາງການແບ່ງພາທິຊັນ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -161,7 +137,7 @@ msgstr "ແນວທາງການແບ່ງພາທິຊັນ"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr "ແນະນຳ - ໃຊ້ພື້ນທີ່ວ່າງຕໍ່ເນື່ອງທີ່ໃຫຍ່ທີ່ສຸດ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -169,14 +145,14 @@ msgstr "ແນະນຳ - ໃຊ້ພື້ນທີ່ວ່າງຕໍ່ເ
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr "ແນະນຳ - ໃຊ້ເນື້ອທີ່ທັ້ງໝົດຂອງດິສ"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr "ເລືອກດິສທີ່ຈະແບ່ງພາທິຊັນ:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -186,7 +162,6 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"ຢ່າລືມວ່າ ຂໍ້ມູນໃນດິສທີ່ທ່ານເລືອກ ຈະຖືກລຶບຖິ້ມທັ້ງໝົດ ແຕ່ບໍ່ມີການລຶບ ຖ້າທ່ານຍັງບໍ່ໄດ້ຢືນຢັນວ່າຕ້ອງການເຮັດແທ້ໆ."
 
 #. Type: text
 #. Description
@@ -195,7 +170,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:17001
 msgid "Manual"
-msgstr "ແບ່ງເອງ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -203,7 +178,7 @@ msgstr "ແບ່ງເອງ"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr "ແບ່ງພາທິຊັນໂດຍອັດຕະໂນມັດໃນພື້ນທີ່ວ່າງ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -211,7 +186,7 @@ msgstr "ແບ່ງພາທິຊັນໂດຍອັດຕະໂນມັດ
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr "ທຸກແຟ້ມໃນພາທິຊັນໜຶ່ງ ແນະນຳສຳຫລັບຜູ້ໃຊ້ໃໝ່)"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -219,7 +194,7 @@ msgstr "ທຸກແຟ້ມໃນພາທິຊັນໜຶ່ງ ແນະ�
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr "ແຍກພາທິຊັນ /home"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -227,7 +202,7 @@ msgstr "ແຍກພາທິຊັນ /home"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr "ແຍກພາທິຊັນ /home, /var ແລະ /tmp"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -235,4 +210,4 @@ msgstr "ແຍກພາທິຊັນ /home, /var ແລະ /tmp"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr "ແນວທາງການແບ່ງພາທີຊັ່ນໃນດີສຂະໜາດນ້ອຍ (< 1GB)"
+msgstr ""

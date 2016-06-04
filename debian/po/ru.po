@@ -3,52 +3,19 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of ru.po to Russian
-# Russian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-#
-# Translations from iso-codes:
-# Russian L10N Team <debian-l10n-russian@lists.debian.org>, 2004.
-# Yuri Kozlov <yuray@komyakino.ru>, 2004, 2005.
-# Dmitry Beloglazov <dm-guest@alioth.debian.org>, 2005.
-# Sergey Alyoshin <alyoshin.s@gmail.com>, 2011.
-# Yuri Kozlov <yuray@komyakino.ru>, 2005, 2006, 2007, 2008.
-# Yuri Kozlov <yuray@komyakino.ru>, 2009, 2010, 2011.
-# Alastair McKinstry <mckinstry@debian.org>, 2004.
-# Mikhail Zabaluev <mhz@altlinux.org>, 2006.
-# Nikolai Prokoschenko <nikolai@prokoschenko.de>, 2004.
-# Pavel Maryanov <acid@jack.kiev.ua>, 2009,2010.
-# Yuri Kozlov <yuray@komyakino.ru>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
-msgid ""
-msgstr ""
-"Project-Id-Version: ru\n"
-"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
-"POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
-"Language: ru\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr "Подождите..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr "Расчёт новых разделов..."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -58,7 +25,7 @@ msgstr "Расчёт новых разделов..."
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "Не удалось разметить выбранный диск"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -68,9 +35,6 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
-"Скорее всего это произошло из-за того, что на указанном вами жёстком диске "
-"или в указанном свободном участке жёсткого диска недостаточно места для "
-"автоматической разметки."
 
 #. Type: error
 #. Description
@@ -80,8 +44,6 @@ msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
 msgstr ""
-"Это произошло скорее всего из-за того, что в таблице разделов слишком много "
-"(первичных) разделов."
 
 #. Type: select
 #. Description
@@ -91,7 +53,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr "Метод разметки:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -103,10 +65,6 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
-"Программа установки может провести вас через процесс разметки диска "
-"(предлагая разные стандартные схемы) на разделы, либо это можно сделать "
-"вручную. Если выбрать использование инструмента управления разметкой, у вас "
-"всё равно будет возможность позже посмотреть и подправить результат."
 
 #. Type: select
 #. Description
@@ -119,15 +77,13 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
-"Если выбрать использование инструмента управления разметкой всего диска, то "
-"далее вас попросят указать нужный диск."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr "Схема разметки:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -140,7 +96,7 @@ msgstr "Схема разметки:"
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr "Выбрано для разметки:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -150,15 +106,13 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
-"Диск может быть размечен по одной из следующих схем. Если вы не знаете, что "
-"выбрать -- выбирайте первую схему."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr "Неиспользованное свободное пространство"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -168,9 +122,6 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"Автоматическая разметка завершилась неудачно, так как указанное свободное "
-"пространство нельзя использовать. Скорее всего, в таблице разделов слишком "
-"много (первичных) разделов."
 
 #. Type: text
 #. Description
@@ -178,7 +129,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr "Автоматическая разметка"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -186,7 +137,7 @@ msgstr "Автоматическая разметка"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr "Авто - использовать наибольшее свободное место"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -194,14 +145,14 @@ msgstr "Авто - использовать наибольшее свободн�
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr "Авто - использовать весь диск"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr "Выберите диск для разметки:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -211,8 +162,6 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"Заметим, что все данные на выбранном диске будут стёрты, но не ранее чем вы "
-"подтвердите, что действительно хотите сделать изменения."
 
 #. Type: text
 #. Description
@@ -221,7 +170,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:17001
 msgid "Manual"
-msgstr "Вручную"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -229,7 +178,7 @@ msgstr "Вручную"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr "Автоматически разметить свободное место"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -237,7 +186,7 @@ msgstr "Автоматически разметить свободное мес�
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr "Все файлы в одном разделе (рекомендуется новичкам)"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -245,7 +194,7 @@ msgstr "Все файлы в одном разделе (рекомендуетс
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr "Отдельный раздел для /home"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -253,7 +202,7 @@ msgstr "Отдельный раздел для /home"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr "Отдельные разделы для /home, /var и /tmp"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -261,4 +210,4 @@ msgstr "Отдельные разделы для /home, /var и /tmp"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr "Схема разметки для дисков малого объёма ( <1 ГБ)"
+msgstr ""
