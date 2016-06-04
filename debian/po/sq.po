@@ -3,19 +3,42 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Albanian messages for debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+#
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@debian.org>, 2004
+#   Elian Myftiu <elian.myftiu@gmail.com>, 2004,2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
+"POT-Creation-Date: 2014-09-25 22:00+0000\n"
+"PO-Revision-Date: 2010-02-21 18:30+0100\n"
+"Last-Translator:  Elian Myftiu <elian.myftiu@gmail.com>\n"
+"Language-Team: Albanian \n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr ""
+msgstr "Të lutem prit..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr ""
+msgstr "Duke llogaritur ndarjet e reja..."
 
 #. Type: error
 #. Description
@@ -25,7 +48,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr ""
+msgstr "Dështoi në ndarjen e diskut të zgjedhur"
 
 #. Type: error
 #. Description
@@ -35,6 +58,8 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
+"Kjo ndoshta ndodhi ngaqë disku apo hapësira e zgjedhur është shumë e vogël "
+"për tu ndarë automatikisht."
 
 #. Type: error
 #. Description
@@ -44,6 +69,7 @@ msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
 msgstr ""
+"Kjo ndodhi ngaqë ndoshta ka shumë ndarje parësore në tabelën e ndarjes."
 
 #. Type: select
 #. Description
@@ -53,7 +79,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr ""
+msgstr "Mënyra e ndarjes:"
 
 #. Type: select
 #. Description
@@ -65,6 +91,10 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
+"Instaluesi mund të të drejtojë në ndarjen e një disku (duke përdorur skema "
+"standarde të ndryshme) ose, nëse dëshiron, mund ta bësh manualisht. Me "
+"ndarjen e drejtuar do kesh mundësinë më vonë të rishikosh dhe rregullosh "
+"rezultatet."
 
 #. Type: select
 #. Description
@@ -77,13 +107,15 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
+"Nëse zgjedh ndarjen e drejtuar për një disk të tërë, do të pyetesh cili disk "
+"duhet përdorur."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr ""
+msgstr "Skema e ndarjes:"
 
 #. Type: select
 #. Description
@@ -96,7 +128,7 @@ msgstr ""
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr ""
+msgstr "Zgjedhur për t'u ndarë:"
 
 #. Type: select
 #. Description
@@ -106,13 +138,15 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
+"Disku mund të ndahet duke përdorur një nga skemat e ndryshme ndarëse. Nëse "
+"nuk je i sigurtë, zgjidh të parën."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr ""
+msgstr "Hapësirë e lirë e papërdorur"
 
 #. Type: error
 #. Description
@@ -122,6 +156,8 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
+"Ndarja dështoi ngaqë hapësira e lirë e zgjedhur nuk mund të përdoret. "
+"Ndoshta ka shumë ndarje (parësore) në tabelën e ndarjeve."
 
 #. Type: text
 #. Description
@@ -129,7 +165,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr ""
+msgstr "Ndarje e udhëzuar"
 
 #. Type: text
 #. Description
@@ -137,7 +173,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr ""
+msgstr "E drejtuar - përdor hapësirën e lirë më të madhe"
 
 #. Type: text
 #. Description
@@ -145,14 +181,14 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr ""
+msgstr "E drejtuar - zgjidh tërë diskun"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr ""
+msgstr "Zgjidh diskun për ta ndarë:"
 
 #. Type: select
 #. Description
@@ -162,6 +198,8 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
+"Vër re që të gjitha të dhënat në diskun që zgjodhe do të fshihen, por jo më "
+"parë sesa të kesh pohuar që vërtet dëshiron të kryesh ndryshimet."
 
 #. Type: text
 #. Description
@@ -170,7 +208,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:17001
 msgid "Manual"
-msgstr ""
+msgstr "Manuale"
 
 #. Type: text
 #. Description
@@ -178,7 +216,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr ""
+msgstr "Ndaj automatikisht hapësirën e lirë"
 
 #. Type: text
 #. Description
@@ -186,7 +224,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr ""
+msgstr "Gjithçka në një ndarje (e këshillueshme për përdoruesit e rinj)"
 
 #. Type: text
 #. Description
@@ -194,7 +232,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr ""
+msgstr "Veço ndarjen /home"
 
 #. Type: text
 #. Description
@@ -202,7 +240,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr ""
+msgstr "Ndaj /home, /var. dhe /tmp"
 
 #. Type: text
 #. Description
@@ -210,4 +248,4 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr ""
+msgstr "Skema e ndarjes së diskut të vogël (< 1GB)"

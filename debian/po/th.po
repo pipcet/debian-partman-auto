@@ -3,19 +3,48 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Thai translation of debian-installer.
+# Copyright (C) 2006-2014 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+# Theppitak Karoonboonyanan <theppitak@gmail.com>, 2006-2014.
+#
+#
+# Translations from iso-codes:
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
+#   Free Software Foundation, Inc., 2002,2003,2004
+#   Alastair McKinstry <mckinstry@computer.org>, 2002, 2004
+#   Translations from KDE:
+#   - Thanomsub Noppaburana <donga@midaassets.com>
+#   Thanomsub Noppaburana <donga@midaassets.com> (Translations from KDE)
+#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2013
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
+"POT-Creation-Date: 2014-09-25 22:00+0000\n"
+"PO-Revision-Date: 2014-09-16 09:30+0700\n"
+"Last-Translator: Theppitak Karoonboonyanan <theppitak@gmail.com>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr ""
+msgstr "กรุณารอสักครู่..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr ""
+msgstr "กำลังคำนวณพาร์ทิชันใหม่..."
 
 #. Type: error
 #. Description
@@ -25,7 +54,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr ""
+msgstr "ไม่สามารถแบ่งพาร์ทิชันในดิสก์ที่เลือก"
 
 #. Type: error
 #. Description
@@ -34,7 +63,7 @@ msgstr ""
 msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
-msgstr ""
+msgstr "อาจเป็นเพราะดิสก์ที่เลือกหรือพื้นที่ว่างเล็กเกินกว่าจะแบ่งพาร์ทิชันโดยอัตโนมัติได้"
 
 #. Type: error
 #. Description
@@ -43,7 +72,7 @@ msgstr ""
 msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
-msgstr ""
+msgstr "อาจเป็นเพราะมีจำนวนพาร์ทิชัน (ที่เป็นไพรมารี) มากเกินไปในตารางพาร์ทิชัน"
 
 #. Type: select
 #. Description
@@ -53,7 +82,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr ""
+msgstr "วิธีแบ่งพาร์ทิชัน:"
 
 #. Type: select
 #. Description
@@ -65,6 +94,9 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
+"โปรแกรมติดตั้งนี้จะพาคุณสู่ขั้นตอนต่างๆ ของการแบ่งพาร์ทิชันในดิสก์ (โดยใช้วิธีแบ่งแบบปกติ) "
+"หรือคุณจะแบ่งพาร์ทิชันเองก็ได้ถ้าคุณต้องการ ถ้าคุณเลือกใช้เครื่องมือแนะแนวทางการแบ่งพาร์ทิชัน "
+"คุณยังมีโอกาสที่จะดูผลการแบ่ง แล้วปรับค่าในภายหลัง"
 
 #. Type: select
 #. Description
@@ -76,14 +108,14 @@ msgstr ""
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
-msgstr ""
+msgstr "ถ้าคุณเลือกการแบ่งพาร์ทิชันแบบแนะแนวทาง คุณจะถูกถามถึงดิสก์ที่จะใช้ในขั้นต่อไป"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr ""
+msgstr "แนวทางการแบ่งพาร์ทิชัน:"
 
 #. Type: select
 #. Description
@@ -96,7 +128,7 @@ msgstr ""
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr ""
+msgstr "สิ่งที่เลือกไว้เพื่อแบ่งพาร์ทิชัน:"
 
 #. Type: select
 #. Description
@@ -105,14 +137,14 @@ msgstr ""
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
-msgstr ""
+msgstr "คุณสามารถแบ่งพาร์ทิชันได้หลายแนวทาง หากคุณไม่มั่นใจ ขอให้เลือกตัวเลือกแรก"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr ""
+msgstr "พื้นที่ว่างที่ใช้ไม่ได้"
 
 #. Type: error
 #. Description
@@ -122,6 +154,8 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
+"แบ่งพาร์ทิชันไม่สำเร็จเพราะพื้นที่ว่างที่เลือกไม่สามารถใช้การได้ เป็นไปได้ว่ามีจำนวนพาร์ทิชัน "
+"(ที่เป็นไพรมารี) มากเกินไปในตารางพาร์ทิชัน"
 
 #. Type: text
 #. Description
@@ -129,7 +163,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr ""
+msgstr "แนวทางการแบ่งพาร์ทิชัน"
 
 #. Type: text
 #. Description
@@ -137,7 +171,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr ""
+msgstr "แนะแนว - ใช้พื้นที่ว่างต่อเนื่องที่ใหญ่ที่สุด"
 
 #. Type: text
 #. Description
@@ -145,14 +179,14 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr ""
+msgstr "แนะแนว - ใช้เนื้อที่ทั้งดิสก์"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr ""
+msgstr "เลือกดิสก์ที่จะแบ่งพาร์ทิชัน:"
 
 #. Type: select
 #. Description
@@ -162,6 +196,7 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
+"อย่าลืมว่าข้อมูลในดิสก์ที่คุณเลือกจะถูกลบทิ้งทั้งหมด แต่จะไม่มีการลบถ้าคุณยังไม่ได้ยืนยันว่าต้องการทำจริงๆ"
 
 #. Type: text
 #. Description
@@ -170,7 +205,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:17001
 msgid "Manual"
-msgstr ""
+msgstr "แบ่งเอง"
 
 #. Type: text
 #. Description
@@ -178,7 +213,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr ""
+msgstr "แบ่งพาร์ทิชันโดยอัตโนมัติในพื้นที่ว่าง"
 
 #. Type: text
 #. Description
@@ -186,7 +221,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr ""
+msgstr "ทุกแฟ้มในพาร์ทิชันเดียว (แนะนำสำหรับผู้ใช้ใหม่)"
 
 #. Type: text
 #. Description
@@ -194,7 +229,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr ""
+msgstr "แยกพาร์ทิชัน /home"
 
 #. Type: text
 #. Description
@@ -202,7 +237,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr ""
+msgstr "แยกพาร์ทิชัน /home, /var และ /tmp"
 
 #. Type: text
 #. Description
@@ -210,4 +245,4 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr ""
+msgstr "แนวทางการแบ่งพาร์ทิชันในดิสก์ขนาดเล็ก (< 1GB)"
