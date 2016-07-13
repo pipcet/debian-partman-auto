@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-12-21 15:13+0300\n"
+"Last-Translator: Viktar Siarheichyk <vics@fsfe.org>\n"
 "Language-Team: Debian l10n team for Belarusian <debian-l10n-belarusian@lists."
 "debian.org>\n"
 "Language: be\n"
@@ -39,14 +39,14 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr ""
+msgstr "Калі ласка, чакайце..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr ""
+msgstr "Разлік новых падзелаў..."
 
 #. Type: error
 #. Description
@@ -56,7 +56,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr ""
+msgstr "Не атрымалася падзяліць абраны дыск"
 
 #. Type: error
 #. Description
@@ -66,6 +66,8 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
+"Магчыма, абраны дыск альбо вольнае месца на ім занадта малыя для "
+"аўтаматычнага перадзелу."
 
 #. Type: error
 #. Description
@@ -74,7 +76,7 @@ msgstr ""
 msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
-msgstr ""
+msgstr "Магчыма, табліца падзелаў дыска ўтрымлівае зашмат першасных падзелаў."
 
 #. Type: select
 #. Description
@@ -84,7 +86,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:5001 ../partman-auto.templates:8001
 msgid "Partitioning method:"
-msgstr ""
+msgstr "Спосаб перадзелу:"
 
 #. Type: select
 #. Description
@@ -96,6 +98,10 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
+"Праграма ўсталявання можа падказаць Вам шлях перадзелу дыска (паводле розных "
+"стандартных схемаў) або, пры жаданні, можна зрабіць перадзел самастойна. У "
+"выпадку \"перадзелу паводле падказкі ([П])\" Вы ўсё адно будзеце мець шанец "
+"праверкі і змянення вынікаў. "
 
 #. Type: select
 #. Description
@@ -108,13 +114,15 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
+"Калі Вы абралі \"перадзел паводле падказкі ([П])\", наступным крокам стане "
+"пытанне, які дыск варта ўжываць."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:9001
 msgid "Partitioning scheme:"
-msgstr ""
+msgstr "Схема перадзелу:"
 
 #. Type: select
 #. Description
@@ -127,7 +135,7 @@ msgstr ""
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:9001
 msgid "Selected for partitioning:"
-msgstr ""
+msgstr "Пазначана для перадзелу:"
 
 #. Type: select
 #. Description
@@ -137,13 +145,15 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
+"Дыск можа быць падзелены з дапамогай адной з некалькіх схем. Калі Вы не "
+"ўпэўнены, выберыце першую."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr ""
+msgstr "Неўжывальнае вольнае месца"
 
 #. Type: error
 #. Description
@@ -153,6 +163,8 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
+"Перадзел не атрымаўся, таму што выбранае вольнае месца не можа быць ужытае. "
+"Магчыма, табліца падзелаў утрымлівае зашмат (першасных) падзелаў."
 
 #. Type: text
 #. Description
@@ -160,7 +172,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr ""
+msgstr "Перадзел паводле падказкі ([П])"
 
 #. Type: text
 #. Description
@@ -168,7 +180,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:14001
 msgid "Guided - use the largest continuous free space"
-msgstr ""
+msgstr "[П] на найбольшым вольным месцы"
 
 #. Type: text
 #. Description
@@ -176,14 +188,14 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided - use entire disk"
-msgstr ""
+msgstr "[П] на суцэльным дыску"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr ""
+msgstr "Пазначыць дыск для падзелу:"
 
 #. Type: select
 #. Description
@@ -193,6 +205,8 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
+"Заўважце, што ўся інфармацыя на пазначаным дыску будзе знішчаная, але не "
+"раней, як Вы пацвердзіце неабходнасць зменаў."
 
 #. Type: text
 #. Description
@@ -201,7 +215,7 @@ msgstr ""
 #. This is a method for partioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:17001
 msgid "Manual"
-msgstr ""
+msgstr "Самастойна"
 
 #. Type: text
 #. Description
@@ -209,7 +223,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr ""
+msgstr "Аўтаперадзел вольнага месца"
 
 #. Type: text
 #. Description
@@ -217,7 +231,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr ""
+msgstr "Адзіны падзел (пачаткоўцам)"
 
 #. Type: text
 #. Description
@@ -225,7 +239,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr ""
+msgstr "Асобны падзел для /home"
 
 #. Type: text
 #. Description
@@ -233,7 +247,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr ""
+msgstr "Асобныя падзелы /home, /var, /tmp"
 
 #. Type: text
 #. Description
@@ -241,4 +255,4 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr ""
+msgstr "Схема для малых дыскаў (< 1GB)"
