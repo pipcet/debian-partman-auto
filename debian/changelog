@@ -1,4 +1,4 @@
-partman-auto (136) UNRELEASED; urgency=medium
+partman-auto (136) unstable; urgency=medium
 
   [ Steve McIntyre ]
   * Add armhf efi recipes by symlinking to the amd64 efi recipes directory.
