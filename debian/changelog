@@ -1,3 +1,10 @@
+partman-auto (136) UNRELEASED; urgency=medium
+
+  [ Steve McIntyre ]
+  * Add armhf efi recipes by symlinking to the amd64 efi recipes directory.
+
+ -- Steve McIntyre <93sam@debian.org>  Wed, 10 Aug 2016 18:35:13 +0100
+
 partman-auto (135) unstable; urgency=medium
 
   [ Steve McIntyre ]
