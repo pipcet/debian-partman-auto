@@ -1,9 +1,9 @@
-partman-auto (137) UNRELEASED; urgency=medium
+partman-auto (137) unstable; urgency=medium
 
   [ Helge Deller ]
   * [hppa] Increase palo partition size to 45-50 MB. Closes: #840467
 
- -- Steve McIntyre <93sam@debian.org>  Wed, 10 Aug 2016 18:35:13 +0100
+ -- Christian Perrier <bubulle@debian.org>  Thu, 13 Oct 2016 07:02:40 +0200
 
 partman-auto (136) unstable; urgency=medium
 
