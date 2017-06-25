@@ -2407,7 +2407,3 @@ partman-auto (1) unstable; urgency=low
     - Initial Greek translation (el.po)
 
  -- Anton Zinoviev <zinoviev@debian.org>  Sat,  3 Jan 2004 18:28:41 +0200
-
-Local Variables:
-coding: utf-8
-End:
