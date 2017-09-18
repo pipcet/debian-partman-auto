@@ -1,3 +1,10 @@
+partman-auto (139) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Albanian (sq.po) by Silva Arapi
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 17 Sep 2017 09:55:37 +0200
+
 partman-auto (138) unstable; urgency=medium
 
   [ Updated translations ]
