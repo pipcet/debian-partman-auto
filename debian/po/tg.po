@@ -9,17 +9,17 @@
 #
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2018
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: 2014-01-05 13:26+0500\n"
+"PO-Revision-Date: 2018-02-07 12:45+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
-"Language: Tajik\n"
+"Language: tg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -93,7 +93,7 @@ msgid ""
 msgstr ""
 "Насбкунанда метавонад ба шумо ҳангоми қисмбандии диск (тавассути схемаҳои "
 "стандартии гуногун) ёрӣ расонад, ё ки, агар шумо хоҳед, шумо метавонед инро "
-"ба таври дастӣ иҷро кунед. Бо қисмгузории ёрирасон шумо имкони "
+"ба таври дастӣ иҷро намоед. Бо қисмгузории ёрирасон шумо имкони "
 "азназаргузаронӣ ва фармоиш додани натиҷаҳоро мегиред."
 
 #. Type: select
@@ -107,7 +107,7 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
-"Агар шумо қисмбандии идорашавандаро барои тамоми диск интихоб кунед, дар "
+"Агар шумо қисмбандии идорашавандаро барои тамоми диск интихоб намоед, дар "
 "қадами навбатӣ аз шумо пурсида мешавад, ки кадом диск бояд истифода шавад."
 
 #. Type: select
@@ -139,7 +139,7 @@ msgid ""
 "are unsure, choose the first one."
 msgstr ""
 "Диск метавонад тавассути яке аз якчанд схемаи гуногун қисмбандӣ карда шавад. "
-"Агар шумо мутмаин набошед, схемаи якумро интихоб кунед."
+"Агар шумо мутмаин набошед, схемаи якумро интихоб намоед."
 
 #. Type: error
 #. Description
@@ -189,7 +189,7 @@ msgstr "Идорашаванда - тамоми дискро истифода б
 #. :sl1:
 #: ../partman-auto.templates:16001
 msgid "Select disk to partition:"
-msgstr "Дискро барои қисмбандӣ интихоб кунед:"
+msgstr "Дискро барои қисмбандӣ интихоб намоед:"
 
 #. Type: select
 #. Description
@@ -241,7 +241,7 @@ msgstr "Ҷудо кардани қисми диски /home"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr "Ҷудо кардани қисмҳои диски /home, /var, ва /tmp"
+msgstr "Ҷудо кардани қисмҳои диски /home, /var ва /tmp"
 
 #. Type: text
 #. Description
