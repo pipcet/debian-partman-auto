@@ -1,3 +1,11 @@
+partman-auto (144) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 18 Feb 2018 08:14:03 +0100
+
 partman-auto (143) unstable; urgency=medium
 
   [ Updated translations ]
