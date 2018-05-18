@@ -6,6 +6,7 @@ partman-auto/text/multi_scheme ::
 	method{ biosgrub } .
 
 30 500 100 ext2
+	$iflabel{ sun }
 	$bootable{ }
 	method{ format }
 	format{ }

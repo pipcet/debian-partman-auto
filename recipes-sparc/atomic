@@ -6,6 +6,7 @@ partman-auto/text/atomic_scheme ::
 	method{ biosgrub } .
 
 50 500 100 ext2
+	$iflabel{ sun }
 	$bootable{ }
 	method{ format }
 	format{ }
