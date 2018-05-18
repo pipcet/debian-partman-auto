@@ -1,6 +1,10 @@
 partman-auto (145) UNRELEASED; urgency=medium
 
+  [ Cyril Brulebois ]
   * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
+
+  [ John Paul Adrian Glaubitz ]
+  * Add a bios_grub partition for GPT disk labels on sparc/sparc64.
 
  -- Cyril Brulebois <kibi@debian.org>  Fri, 27 Apr 2018 03:43:04 +0200
 
