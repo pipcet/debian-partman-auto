@@ -6,6 +6,7 @@ partman-auto (145) UNRELEASED; urgency=medium
   [ John Paul Adrian Glaubitz ]
   * Add a bios_grub partition for GPT disk labels on sparc/sparc64.
   * Use /boot partition for Sun disks labels only on sparc/sparc64.
+  * Add myself to Uploaders
 
  -- Cyril Brulebois <kibi@debian.org>  Fri, 27 Apr 2018 03:43:04 +0200
 
