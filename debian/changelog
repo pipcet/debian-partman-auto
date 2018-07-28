@@ -1,4 +1,4 @@
-partman-auto (145) UNRELEASED; urgency=medium
+partman-auto (145) unstable; urgency=medium
 
   [ Cyril Brulebois ]
   * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
@@ -8,7 +8,10 @@ partman-auto (145) UNRELEASED; urgency=medium
   * Use /boot partition for Sun disks labels only on sparc/sparc64.
   * Add myself to Uploaders
 
- -- Cyril Brulebois <kibi@debian.org>  Fri, 27 Apr 2018 03:43:04 +0200
+  [ Updated translations ]
+  * Hebrew (he.po) by Yaron Shahrabani
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Sat, 28 Jul 2018 18:24:33 +0200
 
 partman-auto (144) unstable; urgency=medium
 
