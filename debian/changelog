@@ -1,3 +1,9 @@
+partman-auto (147) UNRELEASED; urgency=medium
+
+  * Remove trailing whitespaces from changelog file, to fix lintian tag.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 08 Jan 2019 00:01:06 +0100
+
 partman-auto (146) unstable; urgency=medium
 
   * Team upload
@@ -496,7 +502,7 @@ partman-auto (94) unstable; urgency=low
 
   * Team upload
   * Bump minimum root partition size to 900MiB in the home
-    recipe. 
+    recipe.
     This will allow installing the standard task and leave room for
     and extra kernel package in later life of the machine
     Closes: #528914
@@ -782,7 +788,7 @@ partman-auto (80) unstable; urgency=low
 
   [ Updated translations ]
   * Esperanto (eo.po) by Felipe Castro
-	
+
  -- Otavio Salvador <otavio@debian.org>  Tue, 05 Aug 2008 13:40:40 -0300
 
 partman-auto (79) unstable; urgency=low
@@ -1624,7 +1630,7 @@ partman-auto (45) unstable; urgency=low
   * Icelandic (is.po) by David Steinn Geirsson
   * Romanian (ro.po) by Eddy Petrişor
   * Swedish (sv.po) by Daniel Nylander
-  
+
  -- Joey Hess <joeyh@debian.org>  Tue, 15 Nov 2005 19:25:01 -0500
 
 partman-auto (44) unstable; urgency=low
@@ -1643,13 +1649,13 @@ partman-auto (43) unstable; urgency=low
   * Changed dependency from partman to partman-base.
 
   [ Sven Luther ]
-  * Added prep recipes, as a plain copy of the chrp_rs6k ones. 
+  * Added prep recipes, as a plain copy of the chrp_rs6k ones.
 
  -- Sven Luther <luther@debian.org>  Thu,  1 Sep 2005 13:04:10 +0200
 
 partman-auto (42) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Arabic (ar.po) by Ossama M. Khayat
     - Belarusian (be.po) by Andrei Darashenka
     - German (de.po) by Dennis Stampfer
@@ -1683,7 +1689,7 @@ partman-auto (41) unstable; urgency=low
   * Steve Langasek
     - Fix the alpha multiuser recipe to use fewer partitions, working
       around a parted problem with full disklabels. Closes: #260093.
-  * Updated translations: 
+  * Updated translations:
     - Bosnian (bs.po) by Safir Šećerović
     - Catalan (ca.po) by Guillem Jover
     - German (de.po) by Dennis Stampfer
@@ -1705,7 +1711,7 @@ partman-auto (40) unstable; urgency=low
   * Add sun disk label write then read hack to autopartition script as was
     earlier done to other parts of partman to fix bug #237400.
   * Re-enable whole-device autopartitioning for sparc. Closes: #249142
-  * Updated translations: 
+  * Updated translations:
     - Italian (it.po) by Stefano Canepa
 
  -- Joey Hess <joeyh@debian.org>  Thu, 11 Nov 2004 01:46:37 -0500
@@ -1732,7 +1738,7 @@ partman-auto (37) unstable; urgency=low
 
 partman-auto (36) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - Catalan (ca.po) by Jordi Mallach
     - Czech (cs.po) by Miroslav Kure
@@ -1773,7 +1779,7 @@ partman-auto (35) unstable; urgency=low
 
   * Anton Zinoviev
     - recipes.sh (decode_recipe): calculate properly the RAM size on 2.6 kernel
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - Greek, Modern (1453-) (el.po) by Greek Translation Team
     - French (fr.po) by French Team
@@ -1797,7 +1803,7 @@ partman-auto (34) unstable; urgency=low
     - Make autopartition be used for both types of autopartitioning.
     - Add partman-auto/disk which can be preseeded to force use of a specific
       disk for autopartitioning.
-  * Updated translations: 
+  * Updated translations:
     - Catalan (ca.po) by Jordi Mallach
     - Czech (cs.po) by Miroslav Kure
     - Danish (da.po) by Claus Hindsgaul
@@ -1864,7 +1870,7 @@ partman-auto (31) unstable; urgency=low
     - limit the maximum size of the swap to 3 times the available RAM but
       not less than 64 MB.  Thanks to Margarita Manterola, closes: #254935
     - README: document #261244 and #265290
-  * Updated translations: 
+  * Updated translations:
     - Arabic (ar.po) by Christian Perrier
     - Bulgarian (bg.po) by Ognyan Kulev
     - Bosnian (bs.po) by Safir Šećerović
@@ -1890,7 +1896,7 @@ partman-auto (31) unstable; urgency=low
     - Turkish (tr.po) by Recai Oktaş
     - Ukrainian (uk.po) by Eugeniy Meshcheryakov
     - Simplified Chinese (zh_CN.po) by Carlos Z.F. Liu
-  
+
  -- Joey Hess <joeyh@debian.org>  Mon, 30 Aug 2004 12:13:24 -0400
 
 partman-auto (30) unstable; urgency=low
