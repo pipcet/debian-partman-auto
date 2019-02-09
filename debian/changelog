@@ -1,8 +1,13 @@
-partman-auto (147) UNRELEASED; urgency=medium
+partman-auto (147) unstable; urgency=medium
+  * Team upload
 
   * Remove trailing whitespaces from changelog file, to fix lintian tag.
 
- -- Holger Wansing <hwansing@mailbox.org>  Tue, 08 Jan 2019 00:01:06 +0100
+  [ Updated translations ]
+  * Finnish (fi.po) by Juhani Numminen
+  * Traditional Chinese (zh_TW.po) by Louies
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 09 Feb 2019 22:29:42 +0100
 
 partman-auto (146) unstable; urgency=medium
 
