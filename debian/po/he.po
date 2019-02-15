@@ -21,14 +21,14 @@
 # Meni Livne <livne@kde.org>, 2000.
 # Meital Bourvine <meitalbourvine@gmail.com>, 2007.
 # Lior Kaplan <kaplan@debian.org>, 2004-2007, 2008, 2010, 2011, 2015, 2017.
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2018.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2018, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: 2018-06-14 08:38+0000\n"
+"PO-Revision-Date: 2019-02-14 10:09+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -59,7 +59,7 @@ msgstr "מתבצע חישוב של המחיצות החדשות…"
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "כישלון בחלוקת הדיסק הנבחר למחיצות"
+msgstr "חלוקת הכונן הנבחר למחיצות נכשלה"
 
 #. Type: error
 #. Description
@@ -69,7 +69,8 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
-"זה כנראה קרה כי הדיסק או השטח הפנוי שבחרת קטן מדי לחלוקה אוטומטית למחיצות."
+"תקלה זו כנראה קרתה עקב כך שהכונן הנבחר או המקום הפנוי בו קטנים מכדי לאפשר "
+"חלוקה למחיצות."
 
 #. Type: error
 #. Description
