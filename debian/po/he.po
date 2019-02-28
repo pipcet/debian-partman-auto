@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: 2019-02-14 10:09+0000\n"
+"PO-Revision-Date: 2019-02-28 22:08+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -165,7 +165,7 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"כישלון בחלוקה למחיצות מאחר והשטח הפנוי לא ניתן לשימוש. כנראה שיש יותר מידי "
+"החלוקה למחיצות נכשלה כיוון שהשטח הפנוי לא ניתן לשימוש. כנראה שיש יותר מידי "
 "מחיצות (ראשיות) בטבלת המחיצות."
 
 #. Type: text
@@ -257,4 +257,4 @@ msgstr "מחיצות נפרדות ל־‎/home‎, ל־‎/var ול־‎/tmp"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Small-disk (< 1GB) partitioning scheme"
-msgstr "חלוקה למחיצות של דיסק קטן (< 1GB)"
+msgstr "חלוקה למחיצות של דיסק קטן (< 1 ג״ב)"
