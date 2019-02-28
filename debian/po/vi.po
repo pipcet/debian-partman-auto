@@ -9,21 +9,18 @@
 # Jean Christophe André <progfou@gmail.com>
 # Vũ Quang Trung <vu.quang.trung@auf.org>
 # Trịnh Minh Thành <tmthanh@yahoo.com>
+# Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2010
 # Hai-Nam Nguyen <hainam@jcisio.com>, 2012
-#
-# Translations from iso-codes:
-# Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
-# Copyright © 2009 Free Software Foundation, Inc.
-# Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer Level 1\n"
+"Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: 2013-05-22 09:21+0100\n"
-"Last-Translator: Hai-Nam Nguyen <hainam@jcisio.com>\n"
+"PO-Revision-Date: 2019-02-27 14:34+0700\n"
+"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -36,14 +33,14 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:1001
 msgid "Please wait..."
-msgstr "Hãy chờ..."
+msgstr "Hãy chờ…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr "Đang tính toán các phân vùng mới..."
+msgstr "Đang tính toán các phân vùng mới…"
 
 #. Type: error
 #. Description
@@ -53,7 +50,7 @@ msgstr "Đang tính toán các phân vùng mới..."
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "Lỗi phân vùng đĩa đã chọn"
+msgstr "Gặp lỗi khi phân vùng đĩa đã chọn"
 
 #. Type: error
 #. Description
@@ -150,7 +147,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-auto.templates:10001
 msgid "Unusable free space"
-msgstr "Chỗ rỗng vô ích"
+msgstr "Chỗ rỗng không dùng được"
 
 #. Type: error
 #. Description
@@ -169,7 +166,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:13001
 msgid "Guided partitioning"
-msgstr "Phân vùng đã hướng dẫn"
+msgstr "Phân vùng theo hướng dẫn"
 
 #. Type: text
 #. Description
@@ -202,7 +199,7 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"Ghi chú rằng mọi dữ liệu nằm trong đĩa đã chọn sẽ bị xoá hoàn toàn, nhưng "
+"Ghi chú rằng mọi dữ liệu nằm trong đĩa đã chọn sẽ bị xóa hoàn toàn, nhưng "
 "chỉ sau khi bạn đã xác nhận bạn thực sư muốn làm các thay đổi đó."
 
 #. Type: text
@@ -220,7 +217,7 @@ msgstr "Bằng tay"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:18001
 msgid "Automatically partition the free space"
-msgstr "Tự động phân vùng chỗ rỗng"
+msgstr "Tự động phân vùng chỗ trống"
 
 #. Type: text
 #. Description
@@ -228,7 +225,7 @@ msgstr "Tự động phân vùng chỗ rỗng"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:19001
 msgid "All files in one partition (recommended for new users)"
-msgstr "Mọi tập tin trên một phân vùng (khuyên cho người dùng mới)"
+msgstr "Mọi tập tin trên một phân vùng (khuyên dùng cho người mới)"
 
 #. Type: text
 #. Description
@@ -236,7 +233,7 @@ msgstr "Mọi tập tin trên một phân vùng (khuyên cho người dùng mớ
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Separate /home partition"
-msgstr "Phân vùng « /home » riêng"
+msgstr "Đặt “/home” trên phân vùng riêng"
 
 #. Type: text
 #. Description
@@ -244,7 +241,7 @@ msgstr "Phân vùng « /home » riêng"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr "Các phân vùng « /home », « /var », và « /tmp » riêng"
+msgstr "Đặt “/home”, “/var”, và “/tmp” trên các phân vùng riêng"
 
 #. Type: text
 #. Description
