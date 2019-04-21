@@ -1,7 +1,7 @@
 partman-auto (149) UNRELEASED; urgency=medium
 
   * Remove Christian Perrier from Uploaders, with many thanks for all
-    his contributions over the years!
+    his contributions over the years! (Closes: #927535)
 
  -- Cyril Brulebois <kibi@debian.org>  Sat, 20 Apr 2019 22:37:17 +0200
 
