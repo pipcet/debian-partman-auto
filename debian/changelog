@@ -1,4 +1,6 @@
-partman-auto (149) UNRELEASED; urgency=medium
+partman-auto (149) unstable; urgency=medium
+
+  * Team upload
 
   [ Cyril Brulebois ]
   * Remove Christian Perrier from Uploaders, with many thanks for all
@@ -8,9 +10,13 @@ partman-auto (149) UNRELEASED; urgency=medium
   * Use recipes-amd64-efi on ia64
   * Use canonical /boot partition priorities and sizes on sparc/sparc64
 
- -- Cyril Brulebois <kibi@debian.org>  Sat, 20 Apr 2019 22:37:17 +0200
+  [ Holger Wansing ]
+  * Workaround for installer hanging at harddisk step with Arabic (see #929877)
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 20 Jun 2019 10:19:28 +0200
 
 partman-auto (148) unstable; urgency=medium
+
   * Team upload
 
   [ Updated translations ]
@@ -20,6 +26,7 @@ partman-auto (148) unstable; urgency=medium
  -- Holger Wansing <hwansing@mailbox.org>  Mon, 04 Mar 2019 05:09:06 +0100
 
 partman-auto (147) unstable; urgency=medium
+
   * Team upload
 
   * Remove trailing whitespaces from changelog file, to fix lintian tag.
