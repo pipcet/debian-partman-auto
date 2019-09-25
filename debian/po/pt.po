@@ -7,7 +7,7 @@
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # Console-setup strings translations:
 # (identified by "./console-setup.templates")
-# Copyright (C) 2003-2014 Miguel Figueiredo <elmig@debianpt.org>
+# Copyright (C) 2003-2019 Miguel Figueiredo <elmig@debianpt.org>
 # This file is distributed under the same license as debian-installer.
 #
 #
@@ -17,14 +17,14 @@
 #   Free Software Foundation, Inc., 2001,2004
 #   Filipe Maia <fmaia@gmx.net>, 2001.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Miguel Figueiredo <elmig@debianpt.org>, 2005-2014
+#   Miguel Figueiredo <elmig@debianpt.org>, 2005-2018
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2014-09-25 22:00+0000\n"
-"PO-Revision-Date: 2014-09-16 20:11+0100\n"
+"PO-Revision-Date: 2019-09-23 20:36+0100\n"
 "Last-Translator:  Miguel Figueiredo <elmig@debianpt.org>\n"
 "Language-Team:  Portuguese <traduz@debianpt.org>\n"
 "Language: pt\n"
@@ -99,9 +99,9 @@ msgid ""
 "results."
 msgstr ""
 "O instalador pode guiá-lo através do particionamento de discos (utilizando "
-"diferentes esquemas pré-definidos) ou, se preferir, pode fazê-lo "
-"manualmente. Com o particionamento guiado ainda terá a oportunidade de "
-"posteriormente rever e personalizar os resultados."
+"diferentes esquemas predefinidos) ou, se preferir, pode fazê-lo manualmente. "
+"Com o particionamento guiado ainda terá a oportunidade de posteriormente "
+"rever e personalizar os resultados."
 
 #. Type: select
 #. Description
