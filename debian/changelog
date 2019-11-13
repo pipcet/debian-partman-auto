@@ -1,3 +1,13 @@
+partman-auto (150) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Croatian (hr.po) by gogogogi
+  * Portuguese (pt.po) by Miguel Figueiredo
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 13 Nov 2019 22:37:57 +0100
+
 partman-auto (149) unstable; urgency=medium
 
   * Team upload
