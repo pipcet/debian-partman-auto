@@ -1,3 +1,12 @@
+partman-auto (152) UNRELEASED; urgency=medium
+
+  * Bump /boot sizes in most recipes from between 128 and 256M to
+    between 256 and 512M.  As initramfs keep growing, and kernel ABI
+    bumps keep happening, running out of space on /boot is unpleasant.
+    Closes: #893886.
+
+ -- Julien Cristau <jcristau@debian.org>  Mon, 09 Mar 2020 20:22:35 +0100
+
 partman-auto (151) unstable; urgency=medium
 
   * Team upload
