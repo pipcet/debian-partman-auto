@@ -3,7 +3,7 @@ partman-auto (149+deb10u1) UNRELEASED; urgency=medium
   * Bump /boot sizes in most recipes from between 128 and 256M to
     between 256 and 512M.  As initramfs keep growing, and kernel ABI
     bumps keep happening, running out of space on /boot is unpleasant.
-    Closes: #893886.
+    Closes: #893886, 951709.
   * Import from Ubuntu: Introduce partman-auto/cap-ram, to allow capping RAM
     size as used for swap partition calculations. This allows us to cap the
     minimum size of swap partitions size to 1*CAP, and their maximum size to a
