@@ -1,6 +1,6 @@
 partman-auto/text/home_scheme ::
 
-256 512 512 ext2
+512 512 768 ext2
 	$primary{ }
 	$bootable{ }
 	method{ format }
