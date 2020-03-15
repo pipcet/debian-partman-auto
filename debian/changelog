@@ -1,7 +1,7 @@
 partman-auto (152) UNRELEASED; urgency=medium
 
   * Bump /boot sizes in most recipes from between 128 and 256M to
-    between 256 and 512M.  As initramfs keep growing, and kernel ABI
+    between 512 and 768M.  As initramfs keep growing, and kernel ABI
     bumps keep happening, running out of space on /boot is unpleasant.
     Closes: #893886, 951709.
   * Import from Ubuntu: Introduce partman-auto/cap-ram, to allow capping RAM
