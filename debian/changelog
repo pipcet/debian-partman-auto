@@ -1,5 +1,8 @@
-partman-auto (152) UNRELEASED; urgency=medium
+partman-auto (152) unstable; urgency=medium
 
+  * Team upload
+
+  [ Julien Cristau ]
   * Bump /boot sizes in most recipes from between 128 and 256M to
     between 512 and 768M.  As initramfs keep growing, and kernel ABI
     bumps keep happening, running out of space on /boot is unpleasant.
@@ -11,7 +14,7 @@ partman-auto (152) UNRELEASED; urgency=medium
     thus capping swap partitions to between 1 and 3GB. LP: #1351267, closes:
     #949651, #950344.  Patch from Dimitri John Ledkov.
 
- -- Julien Cristau <jcristau@debian.org>  Mon, 09 Mar 2020 20:22:35 +0100
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 10 May 2020 18:14:11 +0200
 
 partman-auto (151) unstable; urgency=medium
 
