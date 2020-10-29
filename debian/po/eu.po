@@ -20,20 +20,21 @@
 # Marcos Goienetxe <marcos_g@infonegocio.com>, 2002.
 # Piarres Beobide <pi@beobide.net>, 2008.
 # Xabier Bilbao <xabidu@gmail.com>, 2008.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2020.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2020-03-10 20:01+0000\n"
-"PO-Revision-Date: 2012-10-19 19:41+0200\n"
+"PO-Revision-Date: 2020-10-28 20:33+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
-"Language-Team: debian-l10n-eu@lists.debian.org\n"
+"Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Content-Transfer-Encoding=UTF-8Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Type: text
 #. Description
@@ -125,7 +126,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:10001
 msgid "Partitioning scheme:"
-msgstr "Partizio eskema:"
+msgstr "Partizio-eskema:"
 
 #. Type: select
 #. Description
@@ -235,7 +236,7 @@ msgstr "Automatikoki egin partizioak leku librean"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "All files in one partition (recommended for new users)"
-msgstr "Fitxategiak partizio batean (hasiberrientzat gomendatua)"
+msgstr "Fitxategi guztiak partizio batean (hasiberrientzako)"
 
 #. Type: text
 #. Description
@@ -251,7 +252,7 @@ msgstr "Bereizitako /home partizioa"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:22001
 msgid "Separate /home, /var, and /tmp partitions"
-msgstr "Berezitutako /home, /var, eta /tmp partizioak"
+msgstr "Bereizitako /home, /var, eta /tmp partizioak"
 
 #. Type: text
 #. Description
