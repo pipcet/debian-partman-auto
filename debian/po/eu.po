@@ -24,10 +24,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: eu\n"
+"Project-Id-Version: di-sublevel1_eu\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2020-03-10 20:01+0000\n"
-"PO-Revision-Date: 2020-10-28 20:33+0100\n"
+"PO-Revision-Date: 2020-11-03 18:23+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -58,7 +58,7 @@ msgstr "Partizio berriak kalkulatzen..."
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "Ezin izan da hautatutako diskoan partiziorik egin"
+msgstr "Huts egin du hautatutako diskoan partizioa egitean"
 
 #. Type: error
 #. Description
@@ -68,8 +68,8 @@ msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
 msgstr ""
-"Hau ziurrenik gertatu da hautatutako diskoa edo leku librea partizioak "
-"automatikoki egiteko txikiegia delako."
+"Baliteke hautatutako diskoa edo leku librea txikiegia izatea partizioak "
+"automatikoki egiteko."
 
 #. Type: error
 #. Description
@@ -78,9 +78,7 @@ msgstr ""
 msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
-msgstr ""
-"Hau ziurrenik gertatu da (lehen mailako) partizio gehiegi egongo direlako "
-"partizio taulan."
+msgstr "Baliteke (lehen mailako) partizio gehiegi egotea partizio-taulan."
 
 #. Type: select
 #. Description
@@ -157,7 +155,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-auto.templates:11001
 msgid "Unusable free space"
-msgstr "Erabili ezin den leku librea"
+msgstr "Leku libre erabilezina"
 
 #. Type: error
 #. Description
@@ -167,9 +165,8 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"Ezin izan da partiziorik egin, agian ezin delako aukeratutako leku librea "
-"erabili. Ziurrenik (lehen mailako) partizio gehiegi egongo dira partizio "
-"taulan."
+"Huts egin du partizioak egitean, agian ezin delako aukeratutako leku librea "
+"erabili. Baliteke (lehen mailako) partizio gehiegi egotea partizio-taulan."
 
 #. Type: text
 #. Description
