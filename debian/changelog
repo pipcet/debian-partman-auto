@@ -1,4 +1,4 @@
-partman-auto (149+deb10u1) UNRELEASED; urgency=medium
+partman-auto (149+deb10u1) buster; urgency=medium
 
   * Bump /boot sizes in most recipes from between 128 and 256M to
     between 512 and 768M.  As initramfs keep growing, and kernel ABI
@@ -11,7 +11,7 @@ partman-auto (149+deb10u1) UNRELEASED; urgency=medium
     thus capping swap partitions to between 1 and 3GB. LP: #1351267, closes:
     #949651, #950344.  Patch from Dimitri John Ledkov.
 
- -- Julien Cristau <jcristau@debian.org>  Mon, 09 Mar 2020 20:22:35 +0100
+ -- Julien Cristau <jcristau@debian.org>  Fri, 20 Nov 2020 15:16:50 +0100
 
 partman-auto (149) unstable; urgency=medium
 
