@@ -1,4 +1,4 @@
-partman-auto (157) UNRELEASED; urgency=medium
+partman-auto (157) unstable; urgency=medium
 
   [ John Paul Adrian Glaubitz ]
   * Switch NewWorld PowerMac recipes to use a GRUB boot partition
@@ -6,7 +6,7 @@ partman-auto (157) UNRELEASED; urgency=medium
   [ Update translations ]
   * Finnish (fi.po) by Kimmo Kujansuu
 
- -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Sun, 11 Apr 2021 19:49:50 +0200
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 24 Jul 2021 05:48:12 +0200
 
 partman-auto (156) unstable; urgency=medium
 
