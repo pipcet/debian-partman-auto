@@ -4,10 +4,11 @@
 . /lib/partman/lib/base.sh
 . /lib/partman/lib/auto-shared.sh
 
-# Skip if no disks detected and don't run on S/390
+# Skip if no disks detected and don't run on S/390 or M1 machines
 if [ -z "$(get_auto_disks)" ] || \
    [ "$(udpkg --print-architecture)" = s390 ] || \
-   [ "$(udpkg --print-architecture)" = s390x ]; then
+   [ "$(udpkg --print-architecture)" = s390x ] || \
+   [ "$(archdetect)" = arm64/m1 ]; then
 	exit 0
 fi
 
