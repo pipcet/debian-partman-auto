@@ -31,13 +31,14 @@
 # Boyuan Yang <073plan@gmail.com>, 2018, 2019, 2020.
 # 玉堂白鹤 <yjwork@qq.com>, 2020.
 # TTT DEAL <ikmn2jlt@linshiyouxiang.net>, 2021.
+# Wenbin Lv <wenbin816@gmail.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-auto@packages.debian.org\n"
 "POT-Creation-Date: 2020-03-10 20:01+0000\n"
-"PO-Revision-Date: 2022-04-13 14:29+0000\n"
+"PO-Revision-Date: 2022-04-17 17:12+0000\n"
 "Last-Translator: Wenbin Lv <wenbin816@gmail.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
@@ -68,7 +69,7 @@ msgstr "正在计算新分区..."
 #. :sl2:
 #: ../partman-auto.templates:3001 ../partman-auto.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "对所选磁盘分区失败"
+msgstr "对所选磁盘进行分区失败"
 
 #. Type: error
 #. Description
@@ -77,7 +78,7 @@ msgstr "对所选磁盘分区失败"
 msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
-msgstr "可能是因为被选的驱动器或空闲空间太小，以至于无法进行自动分区。"
+msgstr "可能是因为所选的磁盘或其空闲空间太小，以至于无法进行自动分区。"
 
 #. Type: error
 #. Description
@@ -169,7 +170,7 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"分区失败的原因是无法使用所选的空闲空间。分区表中可能存在过多 (主) 分区。"
+"分区失败，原因是无法使用所选的空闲空间。分区表中可能存在过多 (主) 分区。"
 
 #. Type: text
 #. Description
