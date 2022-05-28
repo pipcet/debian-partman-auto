@@ -1,3 +1,17 @@
+partman-auto (158) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Esperanto (eo.po) by Felipe Castro
+  * Ukrainian (uk.po) by Taras Panchenko
+  * Simplified Chinese (zh_CN.po) by Wenbin Lv
+
+  [ Samuel Thibault ]
+  * Make gbp produce the right tag format.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 28 May 2022 16:58:32 +0200
+
 partman-auto (157) unstable; urgency=medium
 
   [ John Paul Adrian Glaubitz ]
